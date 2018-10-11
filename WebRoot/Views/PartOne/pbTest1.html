@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>问题行为Part1</title>
+<link rel="stylesheet" href="/Views/PartOne/css/index.css" />
+
+<link rel="stylesheet" href="/Views/PartOne/css/time.css" />
+<script src="/Views/PartOne/js/jquery-1.9.1.min.js"></script>
+<link rel="stylesheet" href="/Views/PartOne/css/btns.css" />
+<script type="text/javascript" src="/Views/PartOne/js/time.js"></script>
+<style type="text/css">
+.error {
+	background-image: url(/Views/PartOne/img/mark.png);
+}
+.success {
+	background-image: url(/Views/PartOne/img/done.png);
+}
+</style>
+<script>
+	//填充考生信息
+	$(document).ready(function() {
+		function stop() {
+			return false;
+		}
+		document.oncontextmenu = stop;
+		//获取考生信息
+		$.ajax({
+			type : "post",
+			url : "/partone/getTester",
+			async : true,
+			success : function(data) {
+				console.info(data);
+				$("#name").text("姓　名:" + data[0].name);
+				$("#sex").text("性　别:" + data[0].sex);
+				$("#idCardNum").text("身份证号码:" + data[0].id_card);
+				$("#school").text("学校:" + data[0].school);
+				$("#grade").text("年级:" + data[0].grade);
+				$("#cls").text("班级:" + data[0].cls);
+				$("#mypic").attr("src", data[0].img);
+			},
+			error : function(data) {
+			}
+		});
+	})
+</script>
+<script>
+
+	var pdata;
+	//点击的是答题卡的序号的话，需要跳转到答题卡序号上.
+	function render_dtk(pdata, now_id) {
+		$("#optionE").show();
+		$('#optionF').show();
+		$("#EX").show();
+		$("#FX").show();
+		console.info("获取到当前需要跳转的序号:" + now_id);
+		$("#question").text(now_id + "." + pdata[now_id - 1].STEM); //写入问题
+		$("#optionA").text("是" /* + pdata[now_id - 1].XXA */);
+		$("#optionB").text("否" /* + pdata[now_id - 1].XXB */);
+
+		$("#tid").text(pdata[now_id - 1].ID);
+		$("#now_id").text(now_id);
+		
+	
+	};
+	$(document)
+			.ready(
+					function() {
+						var xh;
+						$.ajax({
+							type : "post",
+							url : "/partone/sendST", //获取所有试题
+							async : true,
+							success : function(data) {
+								pdata = data;
+								var now_id;
+								init(data[0]); //渲染数据
+						
+							}
+						});
+						//第一题
+						function init(pdata) {
+							$("#question").text("1." + pdata.STEM); //写入问题
+							$("#optionA").text("是");
+							$("#optionB").text("否");
+						
+							$("#tid").text(pdata.ID);  //题目的id号
+							$("#now_id").text(1); //显示的当前题目的号
+							
+							
+						}
+						;
+						//获取点击的序号
+						 var table = document.getElementById("dtk"), tds = table
+								.getElementsByTagName("td");
+						for (var i = 0, j = tds.length; i < j; i++) {
+							tds[i].onclick = function() {
+								//							alert(this.innerHTML);
+								var now_id = this.innerHTML;
+								//							console.info(pdata);
+								//执行跳转到目标序号上.
+								render_dtk(pdata, now_id);
+								//alert($(this).attr("id"));
+							}
+						}
+						; 
+
+					});
+
+	
+	
+function tjPaper(){
+	$.ajax({
+		type : "post",
+		url : "/partone/submitPaper",
+		async : true,
+		data : {
+			
+		},
+		dataType : "json",
+		success : function(data) {
+			if (data.code == "1") {
+				
+			}
+			if (data.code == "0") {
+					
+
+			}
+
+			 layer.alert(data.msg, {
+					skin : 'layui-layer-lan',
+					closeBtn : 0,
+					shift : 4
+				//动画类型
+				}); 
+			
+		}
+	});
+}
+	function tjEvent() {
+		var now_id = $('#now_id').html();
+		var now_id_yy = "#" + $('#now_id').html();
+		//var value  = $('input[name="radioName"]:checked').val(); //获取被选中Radio的Value值
+		var t_id = $('#tid').html();
+		var answer = $('input[name="answer"]:checked').val();
+	
+		$.ajax({
+			type : "post",
+			url : "/partone/recordAnswerAndMark",
+			async : true,
+			data : {
+				"t_id" : t_id,
+				"t_answer" : answer
+			},
+			dataType : "json",
+			success : function(data) {
+				if (data.code == "1") {
+					$(now_id_yy).addClass("success");
+				}
+				if (data.code == "0") {
+						$(now_id_yy).addClass("error");
+
+				}
+
+				 layer.alert(data.msg, {
+					skin : 'layui-layer-lan',
+					closeBtn : 0,
+					shift : 4
+				//动画类型
+				}); 
+				
+			}
+		});
+		//自动当前编号+1下跳
+		render_dtk(pdata, +now_id + 1);
+		//改变当前答题卡的背景
+	};
+</script>
+<!--<script type="text/javascript">
+	//时间处理
+	var int = self.setInterval("clock()", 1000);
+	//对时间处理js
+	function clock() {
+		//获取剩余分钟数
+		var minute = $('#minute_show').text();
+		if (minute == "0分") {
+			var second = $('#second_show').text();
+			if (second == "0秒") {
+				layer.alert("时间到了！", {
+					skin : 'layui-layer-lan',
+					closeBtn : 0,
+					shift : 4
+				//动画类型
+				});
+				window.clearInterval(int);
+			}
+		}
+	};
+</script>-->
+</style>
+</head>
+
+<body>
+	<div class="content">
+		<div class="left_info">
+		
+			<div class="ks_lx">
+				<fieldset>
+					<legend id="title">测评模块</legend>
+					<p id="info">问题行为模块 Part1</p>
+				</fieldset>
+			</div>
+			
+			<div class="ks_sj">
+				<fieldset>
+					<legend id="title">剩余时间</legend>
+					<div class="time-item">
+						<center>
+							<strong id="minute_show"></strong> <strong id="second_show"></strong>
+						</center>
+					</div>
+				</fieldset>
+			</div>
+
+			<div class="user_info">
+				<fieldset>
+					<legend id="title">基本信息</legend>
+					<div class="photo">
+						<center>
+							<img id="mypic"  width="100" height="140" src="">
+						</center>
+					</div>
+
+					<div class="myinfo">
+						<span id="name" class="info"></span><br/> 
+						<span id="sex" class="info"></span><br/> 
+						<span id="idCardNum" class="info"></span><br/>
+						<span id="school" class="info"></span><br/> 
+						<span id="grade" class="info"></span><br/>
+						<span id="cls" class="info"></span><br/>
+					</div>
+				</fieldset>
+			</div>
+		</div>
+
+		<div class="right_info">
+	
+		<div class="dtk">
+				<fieldset>
+					<legend id="title">Part 1 指导语</legend>
+					<div class="da">
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Part 1共有28题，每个题目描述的都是人们在日常生活中的行为表现或者真实感受，请根据您最近一年的实际情况，判断自己是否具有这些特征。
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如：<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有时，当我独自一人的时候，也会听到别人喊我名字。     O是        O否<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果这件事情在你身上曾经发生过，请点击"是"；如果没有发生过，请点击"否"。</p>
+					</div>
+				</fieldset>
+			</div>
+			<div class="ks_nr">
+				<fieldset>
+					<legend id="title">测评题目</legend>
+					<div class="tm">
+						<h3 id="question"></h3>
+						 <input id="A_input" name="answer" type="radio" value="A"/><span id="optionA"> </span><br /> <br /> 
+						 <input id="B_input" name="answer" type="radio" value="B" /><span id="optionB"> </span>
+						
+						<a id="tid" style="display: none;"></a> <a id="now_id"
+							style="display: none;"></a>
+					</div>
+					<div class="tp">
+						<!-- <img id="kstp" src="" width="180px" height="100px" src="" /> -->
+					</div>
+					 <div class="answer">
+			
+							<span></span>
+						
+								<a id="TJ"
+								class="button button-glow button-rounded button-action"
+								style="height: 40px; " onclick="tjEvent()">确定</a>
+								&nbsp;&nbsp;
+								<a id="TJ"
+								class="button button-glow button-rounded button-caution"
+								style="height: 40px; float:right" onclick="tjPaper()">交卷</a>
+							 
+				
+					</div> 
+					<div>
+					
+					</div>
+				</fieldset>
+			</div>
+
+			<div class="dtk">
+				<fieldset>
+					<legend id="title">答题卡信息</legend>
+					<div class="ts_xx">
+						<span>请认真作答,每道题答完需要点击"确定",全部答完点击"交卷"</span>
+					</div>
+					<br />
+					<div class="da">
+						<table id="dtk" width="100%" border="1" cellspacing="0">
+							<tr align="center">
+								<td id="1">1</td>
+								<td id="2">2</td>
+								<td id="3">3</td>
+								<td id="4">4</td>
+								<td id="5">5</td>
+								<td id="6">6</td>
+								<td id="7">7</td>
+								<td id="8">8</td>
+								<td id="9">9</td>
+								<td id="10">10</td>
+								<td id="11">11</td>
+								<td id="12">12</td>
+								<td id="13">13</td>
+								<td id="14">14</td>
+								<td id="15">15</td>
+								<td id="16">16</td>
+								<td id="17">17</td>
+								<td id="18">18</td>
+								<td id="19">19</td>
+								<td id="20">20</td>
+								<td id="21">21</td>
+								<td id="22">22</td>
+								<td id="23">23</td>
+								<td id="24">24</td>
+								<td id="25">25</td>
+								<td id="26">26</td>
+								<td id="27">27</td>
+								<td id="28">28</td>
+							</tr>
+							
+						</table>
+					</div>
+				</fieldset>
+			</div>
+			
+			
+		</div>
+	</div>
+
+	<div class="temp">
+		<script src="/Views/PartOne/layer-v2.2/layer/layer.js"></script>
+	</div>
+
+	
+
+</body>
+</html>

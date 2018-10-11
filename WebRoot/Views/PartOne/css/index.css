@@ -1,0 +1,316 @@
+
+body {
+	padding: 0px;
+	margin: 0px;
+	/*background: darkgray;*/
+	/*	font-family: "microsoft yahei";*/
+}
+.container{
+	margin-bottom: 100px;
+}
+.info {
+	font-size: 14px;
+	font-weight: bolder;
+	text-align: center;
+	text-transform: inherit;
+}
+
+.part_btn{
+	position: relative;
+	margin-top: 10px;
+	width: 100px;
+	margin-left: 29px;
+}
+/*左侧信息*/
+
+.left_info {
+	width: 20%;
+	height: 620px;
+	/*border: solid aquamarine 2px;*/
+	float: left;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.right_info {
+	padding-top: 30px;
+	width: 75%;
+	height: 620px;
+	/*border: double blueviolet 0px;*/
+	float: right;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+
+/*考试类型*/
+
+.ks_lx {
+	padding-top: 10px;
+	/*background:#7FFFD4;*/
+}
+
+#title {
+	font-size: 18px;
+	text-align: center;
+	/*font-weight: bolder;
+	color: dodgerblue;*/
+}
+
+.tit {
+	margin-top: 12px;
+}
+
+#kslx_mc {
+	padding-top: 0px;
+	font-size: 12px;
+	text-align: center;
+}
+
+
+/*剩余时间*/
+
+.ks_sj {
+	padding-top: 10px;
+	/*background-color:  #00968821;*/
+}
+
+#sy_sj {
+	text-align: center;
+	font-size: 14px;
+	padding-top: 0px;
+}
+
+
+/*个人信息*/
+
+.user_info {
+	padding-top: 10px;
+	/*background: blueviolet;*/
+}
+
+.photo {
+	padding-top: 10px;
+	text-align: center;
+	/*height: auto;*/
+	/*width: 200px;*/
+	/*background: crimson;*/
+}
+
+.myinfo {
+	padding-top: 20px;
+	font-size: 10px;
+	line-height: 2;
+}
+
+.ks_nr {
+	/*border: solid red 1px;*/
+	height: 280px;
+	/*background: brown;*/
+}
+
+.tm {
+	width: 100%;
+	height: 70px;
+	border-radius: 5px;
+	/*background: fuchsia;*/
+	/* float: left; */
+}
+
+.tp {
+	/*height: 300px;
+	width: 300px;*/
+	/* float: right; */
+	/*background: darkgreen;*/
+}
+
+.dtk {
+	/*height: 200px;*/
+	/*background: greenyellow;*/
+	PADDING-TOP: 10px；
+}
+
+.da {
+	width: 100%;
+	background-color: #009688;
+}
+
+.da p {
+	font-family: "microsoft yahei";
+}
+
+.ts_xx {
+	color: red;
+	font-weight: bold;
+}
+
+.ad {
+	width: 100%;
+	height: 90px;
+	padding-top: 20px;
+	/*	border: groove #FF0000 2px;*/
+}
+.all{
+	position: relative;
+	width: 300px;
+	height: 50px;
+	/*border: 1px red solid;*/
+	float: right;
+	/*margin-right: 262px;*/
+	margin-top: -56px;
+}
+.answer {
+	position: relative;
+	bottom: 100px;
+	height: 41px;
+	width: 144px;
+	margin-right: 25px;
+	margin-top: 50px;
+	/*border: 1px black solid;*/
+	border-radius: 10px;
+	float: right;
+	/*display: none;*/
+	background-color: #009688;
+	/* float: left; */
+}
+.answer:hover{
+	background-color: rgba(0,150,136,0.7);
+}
+.time-item {
+	height: 34px;
+	float: right;
+}
+
+td {
+	cursor: pointer;
+}
+
+
+/*---start---*/
+
+.header {
+	width: 100%;
+	height: 20px;
+	background-color: #009688;
+}
+
+
+/*---end---*/
+
+
+/*---start---*/
+
+.limit_page {
+	margin-bottom: 30px;
+	width: 500px;
+}
+
+
+/*---end---*/
+
+
+/*---start---*/
+
+.footer {
+	/*position: absolute;*/
+	width: 100%;
+	height: 30px;
+	background-color: #009688;
+	margin-top: 100%;
+}
+
+span {
+	line-height: 40px;
+}
+
+
+/*.ks_nr{
+				margin-top: 150px;
+			}*/
+
+.fix_top {
+	margin-top: 53px;
+	height: 140px;
+	width: 100%;
+	/*background-color: #0096888c;*/
+}
+
+.fix_top p {
+	color: black;
+}
+
+.question {
+	margin-top: -224px;
+}
+
+.tm p {
+	font-family: "microsoft yahei";
+	font-size: 15px;
+	font-weight: bold;
+	padding-top: 8px;
+}
+
+.tm span {
+	font-family: "microsoft yahei";
+}
+
+
+/*---end---*/
+
+
+/*---start*/
+
+#TJ {
+	margin-right: 20px;
+	margin-bottom: 25px;
+	color: white;
+	padding-top:10px ;
+	padding-right: 26px;
+	font-size: 16px;
+	text-decoration: none;
+	cursor: pointer;
+	/*background-color: white;*/
+}
+
+
+.button-glow {
+	-webkit-animation-duration: 0s;
+}
+
+
+/*---end---*/
+
+.pre_next_page {
+	width: 200px;
+	margin: 0 auto;
+}
+#pre_page:hover{
+	color: white;
+	background: #009688;
+}
+#next_page:hover{
+	color: white;
+	background: #009688;
+}
+
+.layui-colla-title {
+	background-color: white;
+}
+
+.op_aa {
+	padding-left: 12px;
+}
+
+.op_bb {
+	padding-left: 12px;
+}
+
+.option_AB {
+	margin-top: 13px;
+}
+
+.size_bar {
+	width: 269px;
+	float: right;
+	margin-top: -29px;
+}

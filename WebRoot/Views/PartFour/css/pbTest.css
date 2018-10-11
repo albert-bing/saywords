@@ -1,0 +1,84 @@
+.pre_next_page {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.layui-colla-title {
+	background-color: white;
+}
+
+.op_aa {
+	padding-left: 12px;
+	float: left;
+/*	width: 100%;*/
+}
+
+.op_bb {
+	padding-left: 12px;
+	float: left;
+	width: 50px;
+}
+.op_cc{
+	padding-left: 12px;
+	float: left;
+	width: 50px;
+}
+.op_dd{
+	padding-left: 12px;
+	float: left;
+	width: 50px;
+}
+.op_ee{
+	padding-left: 12px;
+	float: left;
+	width: 50px;
+}
+.option_AB {
+	margin-top: 13px;
+}
+
+.size_bar {
+	width: 214px;
+	float: left;
+	margin-top: 31px;
+}
+#pre_bar{
+	/*border: 1px red solid;*/
+	width: 60px;
+	float: left;
+	padding-top: 30px;
+}
+/*.all{
+	width: 300px;
+	height: 50px;
+	/*border: 1px red solid;*/
+	/*float: right;*/
+}*/
+
+.btn-p{
+	font-size: 18px;
+	line-height: 30px;
+	width: 108px;
+}
+#pre_bar{
+	/*border: 1px red solid;*/
+	width: 60px;
+	float: left;
+	padding-top: 30px;
+}
+/*.all{
+	width: 300px;
+	height: 50px;
+	border: 1px red solid;
+	float: right;
+}*/
+/*.part_btn{
+	margin-top: 10px;
+	width: 100px;
+	margin-left: 30px;
+}*/
+.btn-p{
+	font-size: 18px;
+	line-height: 30px;
+	width: 108px;
+}

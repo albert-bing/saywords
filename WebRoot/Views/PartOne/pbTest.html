@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>心理健康测评问题行为第一部分</title>
+<!--引入bootstrap的核心css文件-->
+<link rel="stylesheet" href="/Views/PartOne/bootstrap/css/bootstrap.css" />
+<link rel="stylesheet" href="/Views/PartOne/css/time.css" />
+<link rel="stylesheet" href="/Views/PartOne/css/btns.css" />
+<link rel="stylesheet" href="/Views/PartOne/css/index.css" />
+<link rel="stylesheet" href="/Views/PartOne/css/pbTest.css" />
+
+<link rel="stylesheet"
+	href="/Views/PartOne/layui-v2.3.0/layui/css/layui.css" media="all" />
+<!--引入JQuery-->
+<script type="text/javascript" src="/Views/PartOne/js/jquery-1.9.1.js"></script>
+<!--引入bootstrap的js文件-->
+<script type="text/javascript"
+	src="/Views/PartOne/bootstrap/js/bootstrap.js"></script>
+<script src="/Views/PartOne/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/Views/PartOne/js/time.js"></script>
+<script type="text/javascript"
+	src="/Views/PartOne/layui-v2.3.0/layui/layui.js" charset="UTF-8"></script>
+
+</head>
+
+<body>
+
+		<!--start-->
+		<div class="header"></div>
+		<div style="width:1000px;margin:0 auto;">
+		<div class="part_btn">
+			 <button class="layui-btn layui-btn-primary btn-p" onclick="showView()">Part1指导语</button>
+		</div>
+		<!--end-->
+		<!--start-->
+		
+		
+		<!--end-->
+
+		<!--start-->
+		<!--进度条-->
+		<div class="navbar navbar-default navbar-fixed-top all">
+			<!--<div class="all">-->
+				<div id="pre_bar">倒计时：</div>
+				<div class="layui-progress layui-progress-big size_bar"
+					lay-showpercent="true" lay-filter="demo">
+					<div class="layui-progress-bar layui-bg-green" lay-percent="0%"></div>
+				<!--</div>-->
+			</div>
+		</div>
+		<!--end-->
+
+
+		<!--start-->
+		<div class="container">
+			<div class="ks_nr">
+				<legend id="title" class="tit"
+					style="font-family: 'microsoft yahei';">正式测试</legend>
+			</div>
+			<div id="parent" class="question"></div>
+
+
+		</div>
+		<!--end-->
+
+		<!--start-->
+		<div class="navbar-fixed-bottom container limit_page">
+			<!--<div class="">-->
+
+			<div class="pre_next_page">
+				<nav>
+					<ul class="pager">
+						<li><a href="#" id="pre_page">上一页</a></li>
+						<li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+						<li><a href="#" id="next_page" >下一页</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<!--</div>-->
+		</div>
+		<!--end-->
+		<!--start-->
+		<div class="answer" id="ans">
+			<a id="TJ" style="height: 40px; float: right;" onclick="verifyPaper()">交&nbsp;&nbsp;&nbsp;&nbsp;卷</a>
+		</div>
+		<!--end-->
+		</div>
+		<!--start-->
+		<div class="footer navbar-fixed-bottom"></div>
+		<!--end-->
+	
+	<script type="text/javascript" src="/Views/PartOne/js/pbTest.js"></script>
+
+</body>
+
+</html>

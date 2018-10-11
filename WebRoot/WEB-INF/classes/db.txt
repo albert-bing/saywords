@@ -1,0 +1,4 @@
+//mysql配置文件
+mysql.jdbcUrl = jdbc:mysql://127.0.0.1/bank?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+mysql.user = root
+mysql.password = 123456
