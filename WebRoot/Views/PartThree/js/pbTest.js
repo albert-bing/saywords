@@ -31,7 +31,7 @@ $(document)
 						content: '<div style="padding: 20px 100px;">服务器暂时无响应，请稍后再试</div>',
 						btn: '关闭全部',
 						btnAlign: 'c',
-						shade: 1,
+						shade: 0.5,
 						yes: function() {
 							layer.closeAll();
 						}
@@ -101,10 +101,10 @@ $(document)
 					if(group[current_page_number][i].ans == 1) {
 						A_input.setAttribute("checked", "checked");
 					}
-					/*if(i == 0 ){
+					if(i == 0 ){
 						A_input.setAttribute("checked","checked");
-					}*/
-					A_input.setAttribute("checked", "checked");
+					}
+					//A_input.setAttribute("checked", "checked");
 					// 创建A选项内容
 					var span_A = document.createElement("div");
 					span_A.setAttribute("id", "optionA" + s);
@@ -135,9 +135,9 @@ $(document)
 					if(group[current_page_number][i].ans == 2) {
 						B_input.setAttribute("checked", "checked");
 					}
-					/*if(i == 1){
+					if(i == 1){
 						B_input.setAttribute("checked","checked");
-					}*/
+					}
 					B_input.setAttribute("style", "margin-left: 30px");
 					option_all.appendChild(B_input);
 
@@ -170,9 +170,9 @@ $(document)
 					if(group[current_page_number][i].ans == 3) {
 						C_input.setAttribute("checked", "checked");
 					}
-					/*if(i == 2){
+					if(i == 2){
 						C_input.setAttribute("checked","checked");
-					}*/
+					}
 					C_input.setAttribute("style", "margin-left: 40px");
 					option_all.appendChild(C_input);
 
@@ -206,9 +206,9 @@ $(document)
 					if(group[current_page_number][i].ans == 4) {
 						D_input.setAttribute("checked", "checked");
 					}
-					/*if(i == 3){
+					if(i == 3){
 						D_input.setAttribute("checked","checked");
-					}*/
+					}
 					D_input.setAttribute("style", "margin-left: 30px");
 					option_all.appendChild(D_input);
 
@@ -242,9 +242,9 @@ $(document)
 					if(group[current_page_number][i].ans == 5) {
 						E_input.setAttribute("checked", "checked");
 					}
-					/*if(i == 4){
+					if(i == 4){
 						E_input.setAttribute("checked","checked");
-					}*/
+					}
 					E_input.setAttribute("style", "margin-left: 30px");
 					option_all.appendChild(E_input);
 
@@ -278,9 +278,9 @@ $(document)
 					if(group[current_page_number][i].ans == 6) {
 						F_input.setAttribute("checked", "checked");
 					}
-					/*if(i == 5){
+					if(i == 5){
 						F_input.setAttribute("checked","checked");
-					}*/
+					}
 					F_input.setAttribute("style", "margin-left: 30px");
 					option_all.appendChild(F_input);
 
@@ -401,7 +401,7 @@ $(document)
 						content: '<div style="padding: 20px 100px;">您还有题目没有作答，请检查并作答</div>',
 						btn: '确定',
 						btnAlign: 'c',
-						shade: 1,
+						shade: 0.5,
 						yes: function() {
 							layer.closeAll();
 						}
@@ -508,7 +508,7 @@ function re_question_ok(re_data) {
 		content: content,
 		btn: ['确定', '我想改变选择'],
 		btnAlign: 'c',
-		shade: 1,
+		shade: 0.5,
 		yes: function() {
 			function comp(a) {
 				for(var i = 0; i < option_index.length; i++) {
@@ -596,30 +596,57 @@ function answer_A() {
 
 /*---end---*/
 /* 记录答案 */
-//显示导语
-function showView() {
-	layer.open({
-		type: 1,
-		offset: 'auto',
-		id: 'layerDemo' + 1,
-		content: '<div style="padding: 10px 50px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您好！欢迎您参加心理健康测评系统中的积极心理品质测试！<br/ >' +
-			'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下面是一些有关您的生活习惯、兴趣爱好、行为倾向等的调查题目，目的是了解您的个性特点等方面。人们的个性差异很大，没有好与坏、对与错之分，因而请您不要有所顾忌，不必在意他人的看法或评判，要根据自己最近一年的实际情况真实作答。<br />' +
-			'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本测试共有146题，请根据题目的描述与您自己的符合程度点击相应的选项。<br/>' +
-			'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;例如：如果您做了如下判断：<br/><br/>' +
-			'<img src="Views/PartThree/img/showview.png"/><br/><br/>'
-			/*+'<table style="border:1px black solid"><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.大多数同学认为我热情、容易接近。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O 非常不符合  O 不符合  O 有些不符合 O 不确定  O 有些符合 <input type="radio" checked="checked"/> 符合  O 非常符合</td></tr></table><br/>'
-			+'<table style="border:1px black solid"><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.我和父母相处得很好。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" checked="checked"/> 非常不符合  O 不符合  O 有些不符合 O 不确定  O 有些符合 O符合  O 非常符合</td></tr></table><br/>'*/
-			+
-			'表示您认为“我和父母相处得很好”是非常不符合自己的实际情况，但是比较认同“大多数同学认为我热情、容易接近”的说法。' +
-			'<br/>' +
-			'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;每一页有6个题目，请尽量选择不同的选项。系统会自动筛选出选项相同的题目，请您进一步判断哪一个题目更符合您的实际情况。<br/>' +
-			'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请认真作答，不要跳过任何一道题。</div>',
-		btn: '确定',
-		btnAlign: 'c',
-		shade: 0.5,
-		area: ['1000px', '550px']
-	});
-}
+				//显示导语
+				function showView_c() {
+					window.open(
+					layer.open({
+						type: 1,
+						offset: 'auto',
+						id: 'layerDemo' + 1,
+						content: '<div style="padding: 10px 50px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您好！欢迎您参加心理健康测评系统中的积极心理品质测试！<br/ >' +
+							'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下面是一些有关您的生活习惯、兴趣爱好、行为倾向等的调查题目，目的是了解您的个性特点等方面。人们的个性差异很大，没有好与坏、对与错之分，因而请您不要有所顾忌，不必在意他人的看法或评判，要根据自己最近一年的实际情况真实作答。<br />' +
+							'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本测试共有146题，请根据题目的描述与您自己的符合程度点击相应的选项。<br/>' +
+							'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;例如：如果您做了如下判断：' +
+							/*'<img src="Views/PartThree/img/showview.png"/>'<br/><br/>'+*/
+							'<table style="border:1px black solid;margin:0 auto;"><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.大多数同学认为我热情、容易接近。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O 非常不符合  O 不符合  O 有些不符合 O 不确定  O 有些符合 <input type="radio" checked="checked"/> 符合  O 非常符合</td></tr></table></br>'
+							+'<table style="border:1px black solid;margin:0 auto;"><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.我和父母相处得很好。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" checked="checked"/> 非常不符合  O 不符合  O 有些不符合 O 不确定  O 有些符合 O符合  O 非常符合</td></tr></table><br/>'
+							+
+							'表示您认为“我和父母相处得很好”是非常不符合自己的实际情况，但是比较认同“大多数同学认为我热情、容易接近”的说法。' +
+							'<br/>' +
+							'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;每一页有6个题目，请尽量选择不同的选项。系统会自动筛选出选项相同的题目，请您进一步判断哪一个题目更符合您的实际情况。<br/>' +
+							'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请认真作答，不要跳过任何一道题。</div>',
+						btn: '确定',
+						btnAlign: 'c',
+						shade: 0.5,
+						area: ['1000px', '550px']
+					})
+					);
+				}
+			// 定时器，来控制弹出框的时间的
+			setTimeout("showView_c()",100);
+			function showView() {
+					layer.open({
+						type: 1,
+						offset: 'auto',
+						id: 'layerDemo' + 1,
+						content: '<div style="padding: 10px 50px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您好！欢迎您参加心理健康测评系统中的积极心理品质测试！<br/ >' +
+							'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下面是一些有关您的生活习惯、兴趣爱好、行为倾向等的调查题目，目的是了解您的个性特点等方面。人们的个性差异很大，没有好与坏、对与错之分，因而请您不要有所顾忌，不必在意他人的看法或评判，要根据自己最近一年的实际情况真实作答。<br />' +
+							'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本测试共有146题，请根据题目的描述与您自己的符合程度点击相应的选项。<br/>' +
+							'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;例如：如果您做了如下判断：' +
+							/*'<img src="Views/PartThree/img/showview.png"/>'<br/><br/>'+*/
+							'<table style="border:1px black solid;margin:0 auto;"><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.大多数同学认为我热情、容易接近。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O 非常不符合  O 不符合  O 有些不符合 O 不确定  O 有些符合 <input type="radio" checked="checked"/> 符合  O 非常符合</td></tr></table></br>'
+							+'<table style="border:1px black solid;margin:0 auto;"><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.我和父母相处得很好。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" checked="checked"/> 非常不符合  O 不符合  O 有些不符合 O 不确定  O 有些符合 O符合  O 非常符合</td></tr></table><br/>'
+							+
+							'表示您认为“我和父母相处得很好”是非常不符合自己的实际情况，但是比较认同“大多数同学认为我热情、容易接近”的说法。' +
+							'<br/>' +
+							'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;每一页有6个题目，请尽量选择不同的选项。系统会自动筛选出选项相同的题目，请您进一步判断哪一个题目更符合您的实际情况。<br/>' +
+							'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请认真作答，不要跳过任何一道题。</div>',
+						btn: '确定',
+						btnAlign: 'c',
+						shade: 0.5,
+						area: ['1000px', '550px']
+					});
+				}
 //提交试卷
 function verifyPaper() {
 	answer_A();
@@ -637,7 +664,7 @@ function verifyPaper() {
 					content: '<div style="padding: 20px 100px;">还有题目未完成</div>',
 					btn: '关闭全部',
 					btnAlign: 'c',
-					shade: 1,
+					shade: 0.5,
 					yes: function() {
 						layer.closeAll();
 					}
@@ -666,7 +693,7 @@ function tjPaper() {
 					content: '<div style="padding: 20px 100px;">交卷成功,请勿重复提交。测试结束，感谢您的参与。</div>',
 					btn: '关闭全部',
 					btnAlign: 'c',
-					shade: 1,
+					shade: 0.5,
 					yes: function() {
 						layer.closeAll();
 						location.href = '/Views/PartOne/login.html';
@@ -680,7 +707,7 @@ function tjPaper() {
 					content: '<div style="padding: 20px 100px;">交卷失败，请重新提交</div>',
 					btn: '关闭全部',
 					btnAlign: 'c',
-					shade: 1,
+					shade: 0.5,
 					yes: function() {
 						layer.closeAll();
 					}
@@ -696,7 +723,7 @@ function tjPaper() {
 				content: '<div style="padding: 20px 100px;">服务器暂时无响应，请稍后提交</div>',
 				btn: '关闭全部',
 				btnAlign: 'c',
-				shade: 1,
+				shade: 0.5,
 				yes: function() {
 					layer.closeAll();
 				}

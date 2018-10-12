@@ -15,6 +15,7 @@
 	href="/Views/PartOne/layui-v2.3.0/layui/css/layui.css" media="all" />
 <!--引入JQuery-->
 <script type="text/javascript" src="/Views/PartOne/js/jquery-1.9.1.js"></script>
+		<script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
 <!--引入bootstrap的js文件-->
 <script type="text/javascript"
 	src="/Views/PartOne/bootstrap/js/bootstrap.js"></script>
@@ -34,7 +35,7 @@
 		<div style="width:1000px;margin:0 auto;">
 		<!--start-->
 		<div class="part_btn">
-			 <button class="layui-btn layui-btn-primary btn-p" onclick="showView()">Part4指导语</button>
+			 <button class="layui-btn layui-btn-primary btn-p" onclick="showView_s()" onload="showView_c()">指导语</button>
 		</div>
 		
 
@@ -84,7 +85,7 @@
 		<!--end-->
 		<!--start-->
 		<div class="answer" id="ans">
-			<a id="TJ" style="height: 40px; float: right;" onclick="verifyPaper()">交&nbsp;&nbsp;&nbsp;&nbsp;卷</a>
+			<a id="TJ" style="height: 40px; float: right;" onclick="tjPaper()">交&nbsp;&nbsp;&nbsp;&nbsp;卷</a>
 		</div>
 		<!--end-->
 		</div>

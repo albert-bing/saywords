@@ -1,5 +1,6 @@
 package nuc.bsd.psy.config;
 
+import nuc.bsd.psy.exam.controller.PartFiveExamController;
 import nuc.bsd.psy.exam.controller.PartFourExamController;
 import nuc.bsd.psy.exam.controller.PartOneExamController;
 import nuc.bsd.psy.exam.controller.PartThreeExamController;
@@ -20,6 +21,7 @@ public class Routes extends com.jfinal.config.Routes{
 		add("/parttwo", PartTwoExamController.class, "/PartTwo");
 		add("/partthree", PartThreeExamController.class, "/PartThree");
 		add("/partfour", PartFourExamController.class, "/PartFour");
+		add("/partfive", PartFiveExamController.class, "/PartFive");
 	}
 
 }

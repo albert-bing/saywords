@@ -63,7 +63,7 @@
 							        ,content: '<div style="padding: 20px 100px;">服务器暂时无响应，请稍后再试</div>'
 							        ,btn: '关闭全部'
 							        ,btnAlign: 'c'
-							        ,shade: 1 
+							        ,shade: 0.5
 							        ,yes: function(){
 							          layer.closeAll();
 							        }
@@ -157,7 +157,7 @@
 								A_input.setAttribute("class", "btn");
 								A_input.setAttribute("type", "radio");
 								A_input.setAttribute("value", "1");
-								//A_input.setAttribute("checked","");
+								A_input.setAttribute("checked","");
 								if(pdata[i].ans==1){
 								A_input.setAttribute("checked","checked");
 								}
@@ -305,6 +305,29 @@
 							}
 						}
 						/*end*/
+						/*检查是否有题目没有做完*/
+						function chenck_finish(pdata, n1, m1) {
+							var flag = 1;
+							for(var i = n1; i < m1; i++) {
+								var op_AA = $("input[name='answer" + i + "']:checked").val();
+								/*alert(op_AA);*/
+								if(op_AA == undefined) {
+									//alert(12);
+									flag = 0;
+									layer.open({
+											type: 1,
+											offset: 'auto',
+											id: 'layerDemo' + 1,
+											content: '<div style="padding: 20px 50px;line-height:30px;">您还有题目没有作答，请检查并作答 </div>',
+											btn: '确定',
+											btnAlign: 'c',
+											shade: 0.5,
+											area: ['330px', '180px']
+										});
+								}
+							}
+							return flag;
+						}
 						/* 记录答案 --第一页--*/
 						/*---start---*/
 						function answer_A(pdata,n1,m1) {
@@ -337,7 +360,11 @@
 						next_page.onclick = function() {
 							var parent = document.getElementById("parent");
 							/*alert(n,m);*/
-							answer_A(pdata,n,m);
+							var flag = chenck_finish(pdata, n, m);
+							if(flag == 0){
+								chenck_finish(pdata, n, m);
+							}else{
+								answer_A(pdata,n,m);
 							if(limit_page_number<12){
 								limit_page_number++;
 								$(".tm").remove();
@@ -349,7 +376,9 @@
 								limit_page_number = 12;
 								$(".tm").remove();
 								init(pdata,n,m,limit_page_number);
+								}
 							}
+							
 						}
 						
 						// 返回上一页
@@ -407,6 +436,23 @@
 							/*alert(pdata[1].ans);*/
 						}
 		//显示导语
+			function showView_c(){
+				window.open(
+				layer.open({
+					type:1
+					,offset:'auto'
+					,id:'layerDemo'+1
+					,content: '<div style="padding: 20px 50px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Part 2共有130题，每个题目描述的都是人们在日常生活中的行为表现或者真实感受，请根据您最近一年的实际情况，判断自己在这些行为上的发生频率。<br /><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如：<div style="border:1px black solid;widtn:800px,height:200px;">1. 即使当我一个人的时候，我还是觉得有人在看着我。 <br /> &nbsp;&nbsp;&nbsp; O 从不    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 有时    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 经常  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      O 总是</div><br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果这种情况对你来说从未发生过，请点击“从不”；如果偶尔会发生，请点击“有时”；如果时不时地就会发生，请点击“经常”；如果这种情况总是伴随着您，请点击“总是”。 </div>'
+					,btn:'确定'
+					,btnAlign:'c'
+					,shade:0.5
+					,area:['600px','450px']
+				})
+				);
+			}
+			// 定时器，来控制弹出框的时间的
+			setTimeout("showView_c()",100);
+			
 			function showView(){
 				layer.open({
 					type:1
@@ -437,7 +483,7 @@
 				        ,content: '<div style="padding: 20px 100px;">还有题目未完成</div>'
 				        ,btn: '关闭全部'
 				        ,btnAlign: 'c' 
-				        ,shade: 1
+				        ,shade: 0.5
 				        ,yes: function(){
 				          layer.closeAll();
 				        }
@@ -462,14 +508,14 @@
 						        type: 1
 						        ,offset: 'auto' 
 						        ,id: 'layerDemo'+1 
-						        ,content: '<div style="padding: 20px 100px;">交卷成功,请勿重复提交。测试结束，感谢您的参与。</div>'
-						        ,btn: '关闭全部'
+						        ,content: '<div style="padding: 20px 100px;">交卷成功,请勿重复提交。测试结束，感谢您的参与。请继续做积极心里品质测试题目。</div>'
+						        ,btn: '确认'
 						        ,btnAlign: 'c' 
-						        ,shade: 1 
+						        ,shade: 0.5 
 						        ,yes: function(){
 						          layer.closeAll();
-						          //location.href = 'http://localhost:9999/partthree';
-						         location.href = 'http://localhost:9999/Views/PartOne/login.html';
+						         location.href = 'http://localhost:9999/Views/PartThree/pbIntro2.html';
+						         //location.href = 'http://localhost:9999/Views/PartOne/login.html';
 						        }
 						      });
 						} else {
@@ -480,7 +526,7 @@
 						        ,content: '<div style="padding: 20px 100px;">交卷失败，请重新提交</div>'
 						        ,btn: '关闭全部'
 						        ,btnAlign: 'c' 
-						        ,shade: 1 
+						        ,shade: 0.5 
 						        ,yes: function(){
 						          layer.closeAll();
 						        }
@@ -496,7 +542,7 @@
 					        ,content: '<div style="padding: 20px 100px;">服务器暂时无响应，请稍后提交</div>'
 					        ,btn: '关闭全部'
 					        ,btnAlign: 'c' 
-					        ,shade: 1 
+					        ,shade: 0.5 
 					        ,yes: function(){
 					          layer.closeAll();
 					        }

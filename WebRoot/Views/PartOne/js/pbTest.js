@@ -31,7 +31,7 @@
 							        ,content: '<div style="padding: 20px 100px;">服务器暂时无响应，请稍后再试</div>'
 							        ,btn: '关闭全部'
 							        ,btnAlign: 'c'
-							        ,shade: 1 
+							        ,shade: 0.5
 							        ,yes: function(){
 							          layer.closeAll();
 							        }
@@ -365,7 +365,7 @@
 				        ,content: '<div style="padding: 20px 100px;">还有题目未完成</div>'
 				        ,btn: '关闭全部'
 				        ,btnAlign: 'c' 
-				        ,shade: 1
+				        ,shade: 0.5
 				        ,yes: function(){
 				          layer.closeAll();
 				        }
@@ -376,6 +376,22 @@
 			tjPaper();
 		}
 			//显示导语
+			function showView_c(){
+				window.open(
+				layer.open({
+					type:1
+					,offset:'auto'
+					,id:'layerDemo'+1
+					,content: '<div style="padding: 20px 50px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Part 1共有28题，每个题目描述的都是人们在日常生活中的行为表现或者真实感受，请根据您最近一年的实际情况，判断自己是否具有这些特征。<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如：<br/><div style="border:1px black solid">1. 有时，当我独自一人的时候，也会听到别人喊我名字。<br />   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O是    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O否</div> <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果这件事情在你身上曾经发生过，请点击“是”；如果没有发生过，请点击“否”。</div>'
+					,btn:'确定'
+					,btnAlign:'c'
+					,shade:0.5
+					,area:['550px','450px']
+				})
+				);
+			}
+			// 定时器，来控制弹出框的时间的
+			setTimeout("showView_c()",100);
 			function showView(){
 				layer.open({
 					type:1
@@ -407,7 +423,7 @@
 						        ,content: '<div style="padding: 20px 100px;">交卷成功,请勿重复提交。Part 1测试已结束，请您继续完成Part 2测试。</div>'
 						        ,btn: '确定'
 						        ,btnAlign: 'c' 
-						        ,shade: 1 
+						        ,shade: 0.5 
 						        ,yes: function(){
 						          layer.closeAll();
 						         location.href = 'http://localhost:9999/parttwo';
@@ -422,7 +438,7 @@
 						        ,content: '<div style="padding: 20px 100px;">交卷失败，请重新提交</div>'
 						        ,btn: '关闭全部'
 						        ,btnAlign: 'c' 
-						        ,shade: 1 
+						        ,shade: 0.5 
 						        ,yes: function(){
 						          layer.closeAll();
 						        }
@@ -438,7 +454,7 @@
 					        ,content: '<div style="padding: 20px 100px;">服务器暂时无响应，请稍后提交</div>'
 					        ,btn: '关闭全部'
 					        ,btnAlign: 'c' 
-					        ,shade: 1 
+					        ,shade: 0.5 
 					        ,yes: function(){
 					          layer.closeAll();
 					        }

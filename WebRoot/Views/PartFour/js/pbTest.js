@@ -5,22 +5,31 @@
 			var n,m;//中间变量 n 开始页 ，m 结束页
 			//第一页
 			var i1 = 0,
-				i2 = 15;
+				i2 = 10;
 			//第二页
-			var j1 = 15,
-				j2 = 30;
+			var j1 = 10,
+				j2 = 20;
 			//第三页
-			var j3 = 30,
-				j4 = 45;
+			var j3 = 20,
+				j4 = 30;
 			//第四页
-			var j5 = 45,
-				j6 = 60;
+			var j5 = 30,
+				j6 = 40;
 			//第五页
-			var j7 = 60,
-				j8 = 75;
+			var j7 = 40,
+				j8 = 50;
 			//第六页
-			var j9 = 75,
-				j10 = 87;
+			var j9 = 50,
+				j10 = 60;
+				//第七页
+			var j11 = 60,
+				j12 = 70;
+				//第八页
+			var j13 = 70,
+				j14 = 80;
+				//第九页
+			var j15 = 80,
+				j16 = 82;
 			var limit_page_number = 1;//当前页码
 			var question_data = new Array(); // 记录答案的数组
 			$(document)
@@ -60,6 +69,7 @@
 								n=n1;
 								if(limit_page_number == 1){
 									create_page(pdata,i1,i2,limit_page_number);
+									//chenck_finish(pdata, i1, i2);
 									answer_A(pdata,i1,i2);
 								}
 								if(limit_page_number == 2){
@@ -81,6 +91,18 @@
 								if(limit_page_number == 6){
 									create_page(pdata,j9,j10,limit_page_number);
 									answer_A(pdata,j9,j10,limit_page_number);
+								}
+								if(limit_page_number == 7){
+									create_page(pdata,j11,j12,limit_page_number);
+									answer_A(pdata,j11,j12,limit_page_number);
+								}
+								if(limit_page_number == 8){
+									create_page(pdata,j13,j14,limit_page_number);
+									answer_A(pdata,j13,j14,limit_page_number);
+								}
+								if(limit_page_number == 9){
+									create_page(pdata,j15,j16,limit_page_number);
+									answer_A(pdata,j15,j16,limit_page_number);
 								}
 						}
 
@@ -115,7 +137,7 @@
 								A_input.setAttribute("class", "btn");
 								A_input.setAttribute("type", "radio");
 								A_input.setAttribute("value", "1");
-								A_input.setAttribute("checked","");
+								//A_input.setAttribute("checked","");
 								if(pdata[i].ans==1){
 								A_input.setAttribute("checked","checked");
 								}
@@ -124,9 +146,14 @@
 								var span_A = document.createElement("div");
 								span_A.setAttribute("id", "optionA" + i);
 								span_A.setAttribute("style", "margin-left: 5px;float: right;margin-top: 1px;");
-								span_A.append("从不");
+								//span_A.append("从不");
 								/* option_all.appendChild(span_A); */
-
+								var label_A = document.createElement("label");
+								label_A.setAttribute("for","A_input" + i);
+								label_A.append("完全不符合 ");
+								
+								span_A.appendChild(label_A);
+								
 								op_a.appendChild(A_input);
 								op_a.appendChild(span_A);
 								option_all.appendChild(op_a);
@@ -157,9 +184,14 @@
 								var span_B = document.createElement("div");
 								span_B.setAttribute("id", "optionB" + i);
 								span_B.setAttribute("style", "float:right;margin-left: 5px;margin-top: 1px;");
-								span_B.append("有时");
+								//span_B.append("有时");
 								/* option_all.appendChild(span_B); */
-
+								var label_B = document.createElement("label");
+								label_B.setAttribute("for","B_input" + i);
+								label_B.append("不太符合  ");
+								
+								span_B.appendChild(label_B);
+								
 								op_b.appendChild(B_input);
 								op_b.appendChild(span_B);
 								option_all.appendChild(op_b);
@@ -185,9 +217,14 @@
 								var span_C= document.createElement("div");
 								span_C.setAttribute("id", "optionC" + i);
 								span_C.setAttribute("style", "float:right;margin-left: 5px;margin-top: 1px;");
-								span_C.append("经常");
+								//span_C.append("经常");
 								/* option_all.appendChild(span_B); */
-
+								var label_C = document.createElement("label");
+								label_C.setAttribute("for","C_input" + i);
+								label_C.append("比较符合  ");
+								
+								span_C.appendChild(label_C);
+								
 								op_c.appendChild(C_input);
 								op_c.appendChild(span_C);
 								option_all.appendChild(op_c);
@@ -213,19 +250,24 @@
 								var span_D= document.createElement("div");
 								span_D.setAttribute("id", "optionD" + i);
 								span_D.setAttribute("style", "float:right;margin-left: 5px;margin-top: 1px;");
-								span_D.append("总是");
+								//span_D.append("总是");
 								/* option_all.appendChild(span_B); */
-
+								var label_D = document.createElement("label");
+								label_D.setAttribute("for","D_input" + i);
+								label_D.append("完全符合  ");
+								
+								span_D.appendChild(label_D);
+								
 								op_d.appendChild(D_input);
 								op_d.appendChild(span_D);
 								option_all.appendChild(op_d);
 								
 								// 创建E选项;
-								var op_e = document.createElement("div");
-								op_e.setAttribute("class", "op_ee");
+								/*var op_e = document.createElement("div");
+								op_e.setAttribute("class", "op_ee");*/
 								/*op_c.setAttribute("style", "float: left;margin-right: 442px;");*/
 								
-								var E_input = document.createElement("input");
+								/*var E_input = document.createElement("input");
 								E_input.setAttribute("id", "E_input" + i);
 								E_input.setAttribute("name", "answer" + i);
 								E_input.setAttribute("type", "radio");
@@ -233,20 +275,20 @@
 								E_input.setAttribute("value", "5");
 								if(pdata[i].ans==5){
 									E_input.setAttribute("checked","checked");
-									}
+									}*/
 								/*C_input.setAttribute("style", "margin-left: 30px");*/
-								option_all.appendChild(E_input);
+								//option_all.appendChild(E_input);
 
 								// 创建C选项内容
-								var span_E= document.createElement("div");
+								/*var span_E= document.createElement("div");
 								span_E.setAttribute("id", "optionE" + i);
 								span_E.setAttribute("style", "float:right;margin-left: 5px;margin-top: 1px;");
-								span_E.append("经常");
+								span_E.append("经常");*/
 								/* option_all.appendChild(span_B); */
 
-								op_e.appendChild(E_input);
+								/*op_e.appendChild(E_input);
 								op_e.appendChild(span_E);
-								option_all.appendChild(op_e);
+								option_all.appendChild(op_e);*/
 								// 追加到parent中
 								var parent = document.getElementById("parent");
 								parent.appendChild(ques);
@@ -256,10 +298,34 @@
 								ques.appendChild(op_b);
 								ques.appendChild(op_c);
 								ques.appendChild(op_d);
-								ques.appendChild(op_e );
+								//ques.appendChild(op_e );
 							}
 						}
 						/*end*/
+						
+			/*检查是否有题目没有做完*/
+			function chenck_finish(pdata, n1, m1) {
+				var flag = 1;
+				for(var i = n1; i < m1; i++) {
+					var op_AA = $("input[name='answer" + i + "']:checked").val();
+					/*alert(op_AA);*/
+					if(op_AA == undefined) {
+						//alert(12);
+						flag = 0;
+						layer.open({
+								type: 1,
+								offset: 'auto',
+								id: 'layerDemo' + 1,
+								content: '<div style="padding: 20px 50px;line-height:30px;">您还有题目没有作答，请检查并作答 </div>',
+								btn: '确定',
+								btnAlign: 'c',
+								shade: 0.5,
+								area: ['330px', '180px']
+							});
+					}
+				}
+				return flag;
+			}
 						/* 记录答案 --第一页--*/
 						/*---start---*/
 						function answer_A(pdata,n1,m1) {
@@ -292,19 +358,25 @@
 						next_page.onclick = function() {
 							var parent = document.getElementById("parent");
 							/*alert(n,m);*/
-							answer_A(pdata,n,m);
-							if(limit_page_number<6){
-								limit_page_number++;
-								$(".tm").remove();
-								init(pdata,n+15,m+15,limit_page_number);
-								if(limit_page_number==6){
-									show_btn();
-								}
-							}else{
-								limit_page_number = 6;
-								$(".tm").remove();
-								init(pdata,n,m,limit_page_number);
-							}
+							var flag = chenck_finish(pdata, n, m);
+									//alert(flag);
+									if(flag == 0){
+										chenck_finish(pdata, n, m);
+									}else{
+										answer_A(pdata, n, m);
+										if(limit_page_number < 9) {
+											limit_page_number++;
+											$(".tm").remove();
+											init(pdata, n + 10, m + 10, limit_page_number);
+											if(limit_page_number == 9) {
+												show_btn();
+											}
+										} else {
+											limit_page_number = 9;
+											$(".tm").remove();
+											init(pdata, n, m, limit_page_number);
+										}
+									}
 						}
 						
 						// 返回上一页
@@ -316,8 +388,8 @@
 							if(limit_page_number>1){
 								limit_page_number--;
 								$(".tm").remove();
-								init(pdata,n-15,m-15,limit_page_number);
-								if(limit_page_number==5){
+								init(pdata,n-10,m-10,limit_page_number);
+								if(limit_page_number==8){
 									hide_a();
 								}
 							}else{
@@ -333,17 +405,17 @@
 			var $ = layui.jquery,
 				element = layui.element; // Tab的切换功能，切换事件监听等，需要依赖element模块
 			$(document).ready(function() {
-				var second = 2200;
+				var second = 1800;
 				var n = 0;
 				timer = setInterval(function() {
 					n++;
 					if(n > 100) {
 						n = 100;
 						clearInterval(timer);
-						alert("37分钟的答题时间已到");
+						alert("30分钟的答题时间已到");
 					}
 					element.progress('demo', n + '%');
-				}, 22000);
+				}, 18000);
 			});
 
 		});
@@ -360,28 +432,42 @@
 								}
 							}
 							/*alert(pdata[1].ans);*/
-						}
-		//显示导语
-			function showView(){
+					}
+		//显示导语--学生
+			function showView_c(){
+				window.open(
 				layer.open({
 					type:1
 					,offset:'auto'
 					,id:'layerDemo'+1
-					,content: '<div style="padding: 20px 50px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;该部分共有87题，每个题目描述的都是人们在日常生活中的行为表现或者真实感受，请根据您最近一年的实际情况，判断自己在这些行为上的发生频率。<br /><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如：<div style="border:1px black solid;widtn:800px,height:200px;">1. 参加升国旗仪式时，我能自觉做到肃立，行礼，唱响国歌。 <br /> &nbsp;&nbsp;&nbsp; O 总是    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 经常    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 有时  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      O 偶尔 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      O 从不</div><br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果这种情况对你来说从未发生过，请点击“从不”；如果偶尔会发生，请点击“有时”；如果时不时地就会发生，请点击“经常”；如果这种情况总是伴随着您，请点击“总是”。 </div>'
+					,content: '<div style="padding: 20px 50px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本测验共计82题，每个题目描述的都是您在日常学习和生活中的行为表现或者真实感受，请根据您最近一年的实际情况，按照题目的描述与您自己的符合程度点击相应的选项。<br /><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如：<div style="border:1px black solid;widtn:800px,height:200px;">1. 大多数同学认为我热情、容易接近。 <br /> &nbsp;&nbsp;&nbsp; O 完全不符合     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 不太符合     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 比较符合   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      O 完全符合 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      </div><br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果所描述的情况与你个人的实际情况没有一点符合之处，请点击“完全不符合”；如果是大部分情况下不符合，请点击“不太符合”；如果大部分情况下题目中的描述与您本人实际情况相符，请点击“比较符合”；如果题目中的描述与您本人实际情况完全一致，请点击“完全符合”。 </div>'
 					,btn:'确定'
 					,btnAlign:'c'
 					,shade:0.5
-					,area:['600px','450px']
+					,area:['600px','500px']
+				})
+				);
+			}
+			// 定时器，来控制弹出框的时间的
+			setTimeout("showView_c()",100);
+			
+			function showView_s(){
+				layer.open({
+					type:1
+					,offset:'auto'
+					,id:'layerDemo'+1
+					,content: '<div style="padding: 20px 50px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本测验共计82题，每个题目描述的都是您在日常学习和生活中的行为表现或者真实感受，请根据您最近一年的实际情况，按照题目的描述与您自己的符合程度点击相应的选项。<br /><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如：<div style="border:1px black solid;widtn:800px,height:200px;">1. 大多数同学认为我热情、容易接近。 <br /> &nbsp;&nbsp;&nbsp; O 完全不符合     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 不太符合     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 比较符合   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      O 完全符合 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      </div><br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果所描述的情况与你个人的实际情况没有一点符合之处，请点击“完全不符合”；如果是大部分情况下不符合，请点击“不太符合”；如果大部分情况下题目中的描述与您本人实际情况相符，请点击“比较符合”；如果题目中的描述与您本人实际情况完全一致，请点击“完全符合”。 </div>'
+					,btn:'确定'
+					,btnAlign:'c'
+					,shade:0.5
+					,area:['600px','500px']
 				});
 			}
 		//提交试卷
 		function verifyPaper(){
 			//alert(11);
 			answer_A(pdata,n,m);
-		/*
-		 * alert('ss'); alert(pdata[0].ans);
-		 */
-			for(var i=0; i<87; i++){
+			for(var i=0; i<82; i++){
 				
 				if(pdata[i].ans==0){
 					
@@ -392,7 +478,7 @@
 				        ,content: '<div style="padding: 20px 100px;">还有题目未完成</div>'
 				        ,btn: '关闭全部'
 				        ,btnAlign: 'c' 
-				        ,shade: 1
+				        ,shade: 0.5
 				        ,yes: function(){
 				          layer.closeAll();
 				        }
@@ -403,7 +489,6 @@
 			tjPaper();
 		}
 			function tjPaper() {
-				
 				// alert(JSON.stringify(question_data));
 				$.ajax({
 					type: "post",
@@ -420,7 +505,7 @@
 						        ,content: '<div style="padding: 20px 100px;">交卷成功,请勿重复提交。测试结束，感谢您的参与。</div>'
 						        ,btn: '关闭全部'
 						        ,btnAlign: 'c' 
-						        ,shade: 1 
+						        ,shade: 0.5 
 						        ,yes: function(){
 						          layer.closeAll();
 						          location.href = 'http://localhost:9999/Views/PartOne/login.html';
@@ -434,7 +519,7 @@
 						        ,content: '<div style="padding: 20px 100px;">交卷失败，请重新提交</div>'
 						        ,btn: '关闭全部'
 						        ,btnAlign: 'c' 
-						        ,shade: 1 
+						        ,shade:0.5 
 						        ,yes: function(){
 						          layer.closeAll();
 						        }
@@ -450,7 +535,7 @@
 					        ,content: '<div style="padding: 20px 100px;">服务器暂时无响应，请稍后提交</div>'
 					        ,btn: '关闭全部'
 					        ,btnAlign: 'c' 
-					        ,shade: 1 
+					        ,shade: 0.5 
 					        ,yes: function(){
 					          layer.closeAll();
 					        }

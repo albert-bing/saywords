@@ -63,22 +63,22 @@
 					id: 'layer' + 1,
 					title: '<p style="font-size:18px;font-weight:500;margin-left:148px;">请确认您的信息</p>',
 					content: '<div style="padding: 20px 100px;">' +
-						'<div style="width:230px;height:25px;"><label>学校:</label><input type="text" value="' + pdata[0].schoolname + '" style="float:right;"></div><br>' +
-						'<div style="width:230px;height:25px;"><label>学号:</label><input type="text" value="' + pdata[0].studentNO + '" style="float:right;"></div><br>' +
-						'<div style="width:230px;height:25px;"><label>姓名:</label><input type="text" value="' + pdata[0].name + '" style="float:right;"></div><br>' +
-						'<div style="width:230px;height:25px;"><label>性别:</label><input type="text" value="' + pdata[0].gender + '" style="float:right;"></div><br>' +
-						'<div style="width:230px;height:25px;"><label>年级:</label><input type="text" value="' + pdata[0].grade + '" style="float:right;"></div><br>' +
-						'<div style="width:230px;height:25px;"><label>班级:</label><input type="text" value="' + pdata[0].clsname + '" style="float:right;"></div><br>' +
-						'<div style="width:230px;height:25px;"><label>出生日期:</label><input type="text" value="' + pdata[0].birthday + '" style="float:right;"></div>' +
+						'<div style="width:230px;height:25px;"><label>学校:</label><input type="text" value="' + pdata[0].schoolname + '" style="float:right;" readonly="true"></div><br>' +
+						'<div style="width:230px;height:25px;"><label>学籍号:</label><input type="text" value="' + pdata[0].studentNO + '" style="float:right;" readonly="true"></div><br>' +
+						'<div style="width:230px;height:25px;"><label>姓名:</label><input type="text" value="' + pdata[0].name + '" style="float:right;" readonly="true"></div><br>' +
+						'<div style="width:230px;height:25px;"><label>性别:</label><input type="text" value="' + pdata[0].gender + '" style="float:right;" readonly="true"></div><br>' +
+						'<div style="width:230px;height:25px;"><label>年级:</label><input type="text" value="' + pdata[0].grade + '" style="float:right;" readonly="true"></div><br>' +
+						'<div style="width:230px;height:25px;"><label>班级:</label><input type="text" value="' + pdata[0].clsname + '" style="float:right;" readonly="true"></div><br>' +
+						'<div style="width:230px;height:25px;"><label>出生日期:</label><input type="text" value="' + pdata[0].birthday + '" style="float:right;" readonly="true"></div>' +
 						'</div>',
-					btn: ['确定', '重新输入'],
+					btn: ['确定', '重新确认'],
 					btnAlign: 'c',
 					shade: 0.5,
 					area: ['425px', '430px'],
 					yes: function() {
 						/*location.href = '/partone/sendPBIntro';
 						layer.closeAll();*/
-						if(pdata[0].part == '1'){
+						/*if(pdata[0].part == '1'){
 							location.href = '/partone/sendPBIntro';
 							layer.closeAll();
 						}else if(pdata[0].part == '40'){
@@ -87,6 +87,13 @@
 							layer.closeAll();
 						}else{
 							location.href = '/partthree/sendPBIntro2';
+							layer.closeAll();
+						}*/
+						if(pdata[0].part == '40'){
+							location.href = '/partfour/sendPBIntro3';
+							layer.closeAll();
+						}else{
+							location.href = '/partone/sendPBIntro';
 							layer.closeAll();
 						}
 					}

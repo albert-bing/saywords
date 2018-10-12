@@ -13,10 +13,10 @@ import nuc.bsd.psy.base.model.User;
 import nuc.bsd.psy.domain.DbTester;
 import nuc.bsd.psy.tools.DateUtil;
 
-public class PartFourQuestionService {
+public class PartFiveQuestionService {
 
 	
-	public List<Que> getPartFourQuestions(User user) {
+	public List<Que> getPartFiveQuestions(User user) {
 		
 				List<Que> ques = new ArrayList<Que>();
 				String startTime = DateUtil.format(new Date());
@@ -24,9 +24,9 @@ public class PartFourQuestionService {
 				System.out.println(startTime);
 				StringBuffer sb = new StringBuffer();
 				//if("1".equals(user.getOption_n())){
-					sb.append("select DISTINCT b.id as recId,b.content as stem,b.question_code as code,b.option_number as optionNumber ,part from test_table a left join question_bank b on a.question_code = b.question_code where a.EC_code = ? and a.option_number = 4 and part = 40 and op_type_F = 1");	
+					//sb.append("select DISTINCT b.id as recId,b.content as stem,b.question_code as code,b.option_number as optionNumber ,part from test_table a left join question_bank b on a.question_code = b.question_code where a.EC_code = ? and a.option_number = 4 and part = 40 and op_type_F = 1");	
 				//}else{
-					//sb.append("select DISTINCT b.id as recId,b.content as stem,b.question_code as code,b.option_number as optionNumber ,part from test_table a left join question_bank b on a.question_code = b.question_code where a.EC_code = ? and a.option_number = 5 and part = 40 and op_type_G = 2");	
+					sb.append("select DISTINCT b.id as recId,b.content as stem,b.question_code as code,b.option_number as optionNumber ,part from test_table a left join question_bank b on a.question_code = b.question_code where a.EC_code = ? and a.option_number = 4 and part = 40 and op_type_G = 1");	
 				//}
 				/*List<Record> records = Db.find(sb.toString(), user.getStuId());*/
 				List<Record> records = Db.find(sb.toString(),user.getPaperCode());
@@ -63,7 +63,7 @@ public class PartFourQuestionService {
 		}
 		}
 	}*/
-	public boolean savePartFourAnswers(List<Paper> papers) {
+	public boolean savePartFiveAnswers(List<Paper> papers) {
 		StringBuffer sb = new StringBuffer();
 		sb.append("insert into answer(paperCode,stuId,queCode,queAns,submitTime,schoolId,gradeId,classId,startTime) values(?,?,?,?,?,?,?,?,?)");
 		Object[][]paras = new Object[papers.size()][10];

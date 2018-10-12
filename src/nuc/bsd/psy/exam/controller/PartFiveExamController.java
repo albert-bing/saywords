@@ -6,19 +6,17 @@ import java.util.List;
 import nuc.bsd.psy.base.model.Paper;
 import nuc.bsd.psy.base.model.Que;
 import nuc.bsd.psy.base.model.User;
-import nuc.bsd.psy.exam.service.PartFourQuestionService;
-import nuc.bsd.psy.exam.service.PartOneQuestionService;
-
+import nuc.bsd.psy.exam.service.PartFiveQuestionService;
 import com.jfinal.core.Controller;
 import com.jfinal.kit.HttpKit;
 
-public class PartFourExamController extends Controller {
+public class PartFiveExamController extends Controller {
 	/**
 	 * 默认首页方法
 	 */
 	public void index() {
 		//render("zhunkaozheng.html");
-		render("/Views/PartFour/pbTest.html");
+		render("/Views/PartFive/pbTest.html");
 	}
 	/*public void logon(){
 		String account = getPara("username");
@@ -37,17 +35,17 @@ public class PartFourExamController extends Controller {
 		renderJson();
 	}*/
 	// 获取所有的试题
-	public void reqPartFour() {
+	public void reqPartFive() {
 		User user = getSessionAttr("user");
 		//System.out.println(user.getPaperCode());
-		List<Que> ques = new PartFourQuestionService().getPartFourQuestions(user);
+		List<Que> ques = new PartFiveQuestionService().getPartFiveQuestions(user);
 		renderJson(ques);
 	}
 	public void sendPBIntro3(){
-		render("/Views/PartFour/pbIntro3.html");
+		render("/Views/PartFive/pbIntro3.html");
 	}
 	public void sendPBTest(){
-		render("/Views/PartFour/pbTest.html");
+		render("/Views/PartFour/pbTest_p.html");
 	}
 	// 提交试卷
 	public void submitPaper(){
@@ -71,7 +69,7 @@ public class PartFourExamController extends Controller {
 			paper.setQueAns(Integer.parseInt(tmp[1]));
 			papers.add(paper);
 		}
-			new PartFourQuestionService().savePartFourAnswers(papers);
+			new PartFiveQuestionService().savePartFiveAnswers(papers);
 		}
 		}catch(Exception ex) {
 			isSuccess = false;
