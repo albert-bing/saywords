@@ -3,6 +3,8 @@ package nuc.bsd.psy.exam.controller;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
 import nuc.bsd.psy.base.model.Paper;
 import nuc.bsd.psy.base.model.Que;
 import nuc.bsd.psy.base.model.User;
@@ -11,8 +13,11 @@ import nuc.bsd.psy.exam.service.PartThreeQuestionService;
 
 import com.jfinal.core.Controller;
 import com.jfinal.kit.HttpKit;
+import com.jfinal.log.Log;
 
 public class PartThreeExamController extends Controller {
+	private final static Logger LOGGER = Logger.getLogger(PartFourExamController.class);
+    private final static Log LOG = Log.getLog(PartFourExamController.class);
 	/**
 	 * 默认首页方法
 	 */
@@ -38,6 +43,9 @@ public class PartThreeExamController extends Controller {
 	}
 	public void reqPartThree() {
 		User user = getSessionAttr("user");
+		LOGGER.info("log4j info1=="+user.getAccount()+"提取《积极心理品质》题目");
+        LOG.debug("log4j debug2");
+        renderText("log");
 		List<Que> ques = new PartThreeQuestionService().getPartThreeQuestions(user);
 		renderJson(ques);
 	}
@@ -73,6 +81,9 @@ public class PartThreeExamController extends Controller {
 		}
 			new PartThreeQuestionService().savePartThreeAnswers(papers);
 		}
+		LOGGER.info("log4j info1=="+user.getAccount()+"提交试卷提取《积极心理品质》题目");
+        LOG.debug("log4j debug2");
+        renderText("log");
 		}catch(Exception ex) {
 			isSuccess = false;
 			ex.printStackTrace();

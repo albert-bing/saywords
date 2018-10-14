@@ -3,41 +3,27 @@ package nuc.bsd.psy.exam.controller;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
 import nuc.bsd.psy.base.model.Paper;
 import nuc.bsd.psy.base.model.Que;
 import nuc.bsd.psy.base.model.User;
 import nuc.bsd.psy.exam.service.PartFiveQuestionService;
+
 import com.jfinal.core.Controller;
 import com.jfinal.kit.HttpKit;
+import com.jfinal.log.Log;
 
 public class PartFiveExamController extends Controller {
-	/**
-	 * 默认首页方法
-	 */
-	public void index() {
-		//render("zhunkaozheng.html");
-		render("/Views/PartFive/pbTest.html");
-	}
-	/*public void logon(){
-		String account = getPara("username");
-		String pass = getPara("password");
-		User user = new User();
-		user.setAccount(account);
-		user.setPass(pass);
-		user.setRecId(-1);
-		new PartOneQuestionService().getUser(user);
-		if(user.getRecId()==-1) {
-			setAttr("code", 1);
-		}else {
-		setAttr("code", 0);
-		setSessionAttr("user", user);
-		}
-		renderJson();
-	}*/
+	private final static Logger LOGGER = Logger.getLogger(PartFiveExamController.class);
+    private final static Log LOG = Log.getLog(PartFiveExamController.class);
+
 	// 获取所有的试题
 	public void reqPartFive() {
+		LOGGER.info("log4j info1"+"提取题目--家长卷");
+        LOG.debug("log4j debug2");
+        renderText("log");
 		User user = getSessionAttr("user");
-		//System.out.println(user.getPaperCode());
 		List<Que> ques = new PartFiveQuestionService().getPartFiveQuestions(user);
 		renderJson(ques);
 	}
@@ -71,6 +57,9 @@ public class PartFiveExamController extends Controller {
 		}
 			new PartFiveQuestionService().savePartFiveAnswers(papers);
 		}
+		LOGGER.info("log4j info1=="+user.getAccount()+"提交试卷--家长卷");
+        LOG.debug("log4j debug2");
+        renderText("log");
 		}catch(Exception ex) {
 			isSuccess = false;
 			ex.printStackTrace();

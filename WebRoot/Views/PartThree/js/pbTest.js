@@ -412,7 +412,7 @@ $(document)
 					var ret = re_question();
 					if(ret == 0) {
 						if(current_page_number == 31) {
-
+							alert("已经是最后一页了。");
 						} else {
 							$(".tm").remove();
 							init(current_page_number++);
@@ -696,7 +696,7 @@ function tjPaper() {
 					shade: 0.5,
 					yes: function() {
 						layer.closeAll();
-						location.href = '/Views/PartOne/login.html';
+						location.href = '/Views/success.html';
 					}
 				});
 			} else {

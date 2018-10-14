@@ -136,7 +136,7 @@ $(document)
 					A_input.setAttribute("class", "btn");
 					A_input.setAttribute("type", "radio");
 					A_input.setAttribute("value", "1");
-					//A_input.setAttribute("checked","");
+					A_input.setAttribute("checked","");
 					if(pdata[i].ans == 1) {
 						A_input.setAttribute("checked", "checked");
 					}
@@ -357,6 +357,7 @@ $(document)
 			next_page.onclick = function() {
 				var parent = document.getElementById("parent");
 				/*alert(n,m);*/
+				if(limit_page_number < 9){
 				var flag = chenck_finish(pdata, n, m);
 				//alert(flag);
 				if(flag == 0){
@@ -375,6 +376,9 @@ $(document)
 						$(".tm").remove();
 						init(pdata, n, m, limit_page_number);
 					}
+				}
+				}else{
+					alert("已经是最后一页了。")
 				}
 				
 			}
@@ -433,39 +437,41 @@ function answer_A(pdata, n1, m1) {
 	}
 	/*alert(pdata[1].ans);*/
 }
-//显示导语--学生
-/*function showView_s(){
-	layer.open({
-		type:1
-		,offset:'auto'
-		,id:'layerDemo'+1
-		,content: '<div style="padding: 20px 50px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;该部分共有87题，每个题目描述的都是人们在日常生活中的行为表现或者真实感受，请根据您最近一年的实际情况，判断自己在这些行为上的发生频率。<br /><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如：<div style="border:1px black solid;widtn:800px,height:200px;">1. 参加升国旗仪式时，我能自觉做到肃立，行礼，唱响国歌。 <br /> &nbsp;&nbsp;&nbsp; O 总是    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 经常    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 有时  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      O 偶尔 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      O 从不</div><br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果这种情况对你来说从未发生过，请点击“从不”；如果偶尔会发生，请点击“有时”；如果时不时地就会发生，请点击“经常”；如果这种情况总是伴随着您，请点击“总是”。 </div>'
-		,btn:'确定'
-		,btnAlign:'c'
-		,shade:0.5
-		,area:['600px','450px']
-	});
-}*/
-//显示导语--家长
-function showView_p() {
-	window.open(
-	layer.open({
-		type: 1,
-		offset: 'auto',
-		id: 'layerDemo' + 1,
-		content: '<div style="padding: 20px 50px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本测验共计82题，每个题目描述的都是您的孩子在日常学习和生活中的行为表现或者真实感受，请根据孩子最近一年的实际情况，按照题目的描述与孩子的符合程度点击相应的选项。<br /><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如：<div style="border:1px black solid;widtn:800px,height:200px;">1. 大多数同学认为我热情、容易接近。 <br /> &nbsp;&nbsp;&nbsp; O 完全不符合     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 不太符合     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 比较符合   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      O 完全符合 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     </div><br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果所描述的情况与孩子的实际情况没有一点符合之处，请点击“完全不符合”；如果是大部分情况下不符合，请点击“不太符合”；如果大部分情况下题目中的描述与您的孩子的实际情况相符，请点击“比较符合”；如果题目中的描述与孩子的实际情况完全一致，请点击“完全符合”。 </div>',
-		btn: '确定',
-		btnAlign: 'c',
-		shade: 0.5,
-		area: ['600px', '500px']
-	})
-	);
-}
+
+			//显示导语--家长
+			function showView() {
+				window.open(
+				layer.open({
+					type: 1,
+					offset: 'auto',
+					id: 'layerDemo' +2,
+					content: '<div style="padding: 20px 50px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本测验共计82题，每个题目描述的都是您的孩子在日常学习和生活中的行为表现或者真实感受，请根据孩子最近一年的实际情况，按照题目的描述与孩子的符合程度点击相应的选项。<br /><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如：<div style="border:1px black solid;widtn:800px,height:200px;">1. 大多数同学认为我热情、容易接近。 <br /> &nbsp;&nbsp;&nbsp; O 完全不符合     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 不太符合     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 比较符合   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      O 完全符合 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     </div><br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果所描述的情况与孩子的实际情况没有一点符合之处，请点击“完全不符合”；如果是大部分情况下不符合，请点击“不太符合”；如果大部分情况下题目中的描述与您的孩子的实际情况相符，请点击“比较符合”；如果题目中的描述与孩子的实际情况完全一致，请点击“完全符合”。 </div>',
+					btn: '确定',
+					btnAlign: 'c',
+					shade: 0.5,
+					area: ['600px', '500px']
+				})
+				);
+			}
 			// 定时器，来控制弹出框的时间的
 			setTimeout("showView()",100);
+			
+		function showView_p() {
+			layer.open({
+				type: 1,
+				offset: 'auto',
+				id: 'layerDemo' + 1,
+				content: '<div style="padding: 20px 50px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本测验共计82题，每个题目描述的都是您的孩子在日常学习和生活中的行为表现或者真实感受，请根据孩子最近一年的实际情况，按照题目的描述与孩子的符合程度点击相应的选项。<br /><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如：<div style="border:1px black solid;widtn:800px,height:200px;">1. 大多数同学认为我热情、容易接近。 <br /> &nbsp;&nbsp;&nbsp; O 完全不符合     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 不太符合     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 比较符合   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      O 完全符合 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     </div><br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果所描述的情况与孩子的实际情况没有一点符合之处，请点击“完全不符合”；如果是大部分情况下不符合，请点击“不太符合”；如果大部分情况下题目中的描述与您的孩子的实际情况相符，请点击“比较符合”；如果题目中的描述与孩子的实际情况完全一致，请点击“完全符合”。 </div>',
+				btn: '确定',
+				btnAlign: 'c',
+				shade: 0.5,
+				area: ['600px', '500px']
+			});
+		}
 //提交试卷
 function verifyPaper() {
 	//alert(11);
+	//chenck_finish(pdata, n, m);
 	answer_A(pdata, n, m);
 	/*
 	 * alert('ss'); alert(pdata[0].ans);
@@ -513,7 +519,7 @@ function tjPaper() {
 					shade: 0.5,
 					yes: function() {
 						layer.closeAll();
-						location.href = 'http://localhost:9999/Views/PartOne/login.html';
+						location.href = '/Views/success.html';
 					}
 				});
 			} else {

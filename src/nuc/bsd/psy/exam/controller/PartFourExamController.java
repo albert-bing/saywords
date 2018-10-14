@@ -3,16 +3,20 @@ package nuc.bsd.psy.exam.controller;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
 import nuc.bsd.psy.base.model.Paper;
 import nuc.bsd.psy.base.model.Que;
 import nuc.bsd.psy.base.model.User;
 import nuc.bsd.psy.exam.service.PartFourQuestionService;
-import nuc.bsd.psy.exam.service.PartOneQuestionService;
-
 import com.jfinal.core.Controller;
 import com.jfinal.kit.HttpKit;
+import com.jfinal.log.Log;
 
 public class PartFourExamController extends Controller {
+	private final static Logger LOGGER = Logger.getLogger(PartFourExamController.class);
+    private final static Log LOG = Log.getLog(PartFourExamController.class);
+
 	/**
 	 * 默认首页方法
 	 */
@@ -20,26 +24,13 @@ public class PartFourExamController extends Controller {
 		//render("zhunkaozheng.html");
 		render("/Views/PartFour/pbTest.html");
 	}
-	/*public void logon(){
-		String account = getPara("username");
-		String pass = getPara("password");
-		User user = new User();
-		user.setAccount(account);
-		user.setPass(pass);
-		user.setRecId(-1);
-		new PartOneQuestionService().getUser(user);
-		if(user.getRecId()==-1) {
-			setAttr("code", 1);
-		}else {
-		setAttr("code", 0);
-		setSessionAttr("user", user);
-		}
-		renderJson();
-	}*/
+	
 	// 获取所有的试题
 	public void reqPartFour() {
 		User user = getSessionAttr("user");
-		//System.out.println(user.getPaperCode());
+		LOGGER.info("log4j info1=="+user.getAccount()+"提取题目--学生卷");
+        LOG.debug("log4j debug2");
+        renderText("log");
 		List<Que> ques = new PartFourQuestionService().getPartFourQuestions(user);
 		renderJson(ques);
 	}
@@ -73,6 +64,9 @@ public class PartFourExamController extends Controller {
 		}
 			new PartFourQuestionService().savePartFourAnswers(papers);
 		}
+		LOGGER.info("log4j info1=="+user.getAccount()+"提交试卷--学生卷");
+        LOG.debug("log4j debug2");
+        renderText("log");
 		}catch(Exception ex) {
 			isSuccess = false;
 			ex.printStackTrace();

@@ -3,6 +3,8 @@ package nuc.bsd.psy.exam.controller;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
 import nuc.bsd.psy.base.model.Paper;
 import nuc.bsd.psy.base.model.Que;
 import nuc.bsd.psy.base.model.User;
@@ -11,8 +13,11 @@ import nuc.bsd.psy.exam.service.PartTwoQuestionService;
 
 import com.jfinal.core.Controller;
 import com.jfinal.kit.HttpKit;
+import com.jfinal.log.Log;
 
 public class PartTwoExamController extends Controller {
+	private final static Logger LOGGER = Logger.getLogger(PartFourExamController.class);
+    private final static Log LOG = Log.getLog(PartFourExamController.class);
 	/**
 	 * 默认首页方法
 	 */
@@ -23,6 +28,9 @@ public class PartTwoExamController extends Controller {
 	
 	public void reqPartTwo() {
 		User user = getSessionAttr("user");
+		LOGGER.info("log4j info1=="+user.getAccount()+"提取《问题行为》题目-parttwo部分");
+        LOG.debug("log4j debug2");
+        renderText("log");
 		List<Que> ques = new PartTwoQuestionService().getPartTwoQuestions(user);
 		renderJson(ques);
 	}
@@ -51,6 +59,9 @@ public class PartTwoExamController extends Controller {
 		}
 			new PartTwoQuestionService().savePartTwoAnswers(papers);
 		}
+		LOGGER.info("log4j info1=="+user.getAccount()+"提交试卷《问题行为》题目-parttwo部分");
+        LOG.debug("log4j debug2");
+        renderText("log");
 		}catch(Exception ex) {
 			isSuccess = false;
 			ex.printStackTrace();

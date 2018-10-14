@@ -360,6 +360,7 @@
 						next_page.onclick = function() {
 							var parent = document.getElementById("parent");
 							/*alert(n,m);*/
+							if(limit_page_number < 12){
 							var flag = chenck_finish(pdata, n, m);
 							if(flag == 0){
 								chenck_finish(pdata, n, m);
@@ -378,7 +379,9 @@
 								init(pdata,n,m,limit_page_number);
 								}
 							}
-							
+							}else{
+								alert("已经是最后一页了。");
+							}
 						}
 						
 						// 返回上一页

@@ -137,7 +137,7 @@
 								A_input.setAttribute("class", "btn");
 								A_input.setAttribute("type", "radio");
 								A_input.setAttribute("value", "1");
-								//A_input.setAttribute("checked","");
+								A_input.setAttribute("checked","");
 								if(pdata[i].ans==1){
 								A_input.setAttribute("checked","checked");
 								}
@@ -358,14 +358,17 @@
 						next_page.onclick = function() {
 							var parent = document.getElementById("parent");
 							/*alert(n,m);*/
+							if(limit_page_number < 9){
 							var flag = chenck_finish(pdata, n, m);
 									//alert(flag);
+									//alert(limit_page_number);
 									if(flag == 0){
 										chenck_finish(pdata, n, m);
 									}else{
 										answer_A(pdata, n, m);
 										if(limit_page_number < 9) {
 											limit_page_number++;
+											//alert(limit_page_number);
 											$(".tm").remove();
 											init(pdata, n + 10, m + 10, limit_page_number);
 											if(limit_page_number == 9) {
@@ -377,6 +380,9 @@
 											init(pdata, n, m, limit_page_number);
 										}
 									}
+								}else{
+									alert("已经是最后一页了。")
+								}
 						}
 						
 						// 返回上一页
@@ -463,9 +469,11 @@
 					,area:['600px','500px']
 				});
 			}
+			
 		//提交试卷
 		function verifyPaper(){
 			//alert(11);
+			//chenck_finish(pdata, n, m);
 			answer_A(pdata,n,m);
 			for(var i=0; i<82; i++){
 				
@@ -508,7 +516,7 @@
 						        ,shade: 0.5 
 						        ,yes: function(){
 						          layer.closeAll();
-						          location.href = 'http://localhost:9999/Views/PartOne/login.html';
+						          location.href = '/Views/success.html';
 						        }
 						      });
 						} else {

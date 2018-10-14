@@ -5,8 +5,11 @@ import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.apache.log4j.Logger;
+
 import com.jfinal.core.Controller;
 import com.jfinal.kit.HttpKit;
+import com.jfinal.log.Log;
 
 import nuc.bsd.psy.base.model.Cls;
 import nuc.bsd.psy.base.model.Paper;
@@ -17,20 +20,27 @@ import nuc.bsd.psy.exam.service.PartOneQuestionService;
 import nuc.bsd.psy.tools.IPUtil;
 
 public class PartOneExamController extends Controller {
+	private final static Logger LOGGER = Logger.getLogger(PartOneExamController.class);
+    private final static Log LOG = Log.getLog(PartOneExamController.class);
 	/**
 	 * 默认首页方法
 	 */
 	public void index() {
+		/*log.info("success");*/
 		//render("zhunkaozheng.html");
 		render("login.html");
 	}
 	public void logon(){
 		String account = getPara("username");
 		String pass = getPara("password");
+		
 		User user = new User();
 		user.setAccount(account);
 		user.setPass(pass);
 		user.setRecId(-1);
+		LOGGER.info("log4j info1=="+account+"登录");
+        LOG.debug("log4j debug2");
+        renderText("log");
 		new PartOneQuestionService().getUser(user);
 		if(user.getRecId()==-1) {
 			setAttr("code", 1);
@@ -69,6 +79,9 @@ public class PartOneExamController extends Controller {
 	}
 	public void reqPartOne() {
 		User user = getSessionAttr("user");
+		LOGGER.info("log4j info1=="+user.getAccount()+"提取《问题行为》题目-partone部分");
+        LOG.debug("log4j debug2");
+        renderText("log");
 		List<Que> ques = new PartOneQuestionService().getPartOneQuestions(user);
 		renderJson(ques);
 	}
@@ -97,6 +110,9 @@ public class PartOneExamController extends Controller {
 		}
 			new PartOneQuestionService().savePartOneAnswers(papers);
 		}
+		LOGGER.info("log4j info1=="+user.getAccount()+"提交试卷《问题行为》题目-partone部分");
+        LOG.debug("log4j debug2");
+        renderText("log");
 		}catch(Exception ex) {
 			isSuccess = false;
 			ex.printStackTrace();
