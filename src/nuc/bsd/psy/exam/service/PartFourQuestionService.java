@@ -21,7 +21,6 @@ public class PartFourQuestionService {
 				List<Que> ques = new ArrayList<Que>();
 				String startTime = DateUtil.format(new Date());
 				user.setStartTime(startTime);
-				System.out.println(startTime);
 				StringBuffer sb = new StringBuffer();
 				//if("1".equals(user.getOption_n())){
 					sb.append("select DISTINCT b.id as recId,b.content as stem,b.question_code as code,b.option_number as optionNumber ,part from test_table a left join question_bank b on a.question_code = b.question_code where a.EC_code = ? and a.option_number = 4 and part = 40 and op_type_F = 1");	

@@ -55,7 +55,7 @@ public class PartOneQuestionService {
 		if(record !=null) {
 			user.setPaperCode(record.getStr("paperCode"));
 			user.setPart(record.getInt("part"));
-			System.out.println(user.getPart());
+			//System.out.println(user.getPart());
 		}
 		}
 	}
@@ -68,7 +68,7 @@ public class PartOneQuestionService {
 				StringBuffer sb = new StringBuffer();
 				sb.append("select distinct b.id as recId,b.content as stem,b.question_code as code,b.option_number as optionNumber from test_table a left join question_bank b on a.question_code = b.question_code where a.EC_code = ? and a.option_number = 2 ");	
 				List<Record> records = Db.find(sb.toString(), user.getPaperCode());
-				System.out.println(user.getPaperCode());
+				//System.out.println(user.getPaperCode());
 				for(Record record : records) {
 					Que que = new Que();
 					que.setRecId(record.getInt("recId"));

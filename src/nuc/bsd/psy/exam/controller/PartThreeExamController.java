@@ -21,7 +21,7 @@ public class PartThreeExamController extends Controller {
 	/**
 	 * 默认首页方法
 	 */
-	public void index() {
+	/*public void index() {
 		//render("zhunkaozheng.html");
 		render("/Views/PartThree/pbTest.html");
 	}
@@ -40,7 +40,7 @@ public class PartThreeExamController extends Controller {
 		setSessionAttr("user", user);
 		}
 		renderJson();
-	}
+	}*/
 	public void reqPartThree() {
 		User user = getSessionAttr("user");
 		LOGGER.info("log4j info1=="+user.getAccount()+"提取《积极心理品质》题目");

@@ -506,7 +506,7 @@ function re_question_ok(re_data) {
 		title: '您有多道题目选项重复,我们需要再次确认',
 		area: ['600px', '400px'],
 		content: content,
-		btn: ['确定', '我想改变选择'],
+		btn: ['确定'],
 		btnAlign: 'c',
 		shade: 0.5,
 		yes: function() {

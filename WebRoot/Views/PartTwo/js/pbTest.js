@@ -445,7 +445,7 @@
 					type:1
 					,offset:'auto'
 					,id:'layerDemo'+1
-					,content: '<div style="padding: 20px 50px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Part 2共有130题，每个题目描述的都是人们在日常生活中的行为表现或者真实感受，请根据您最近一年的实际情况，判断自己在这些行为上的发生频率。<br /><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如：<div style="border:1px black solid;widtn:800px,height:200px;">1. 即使当我一个人的时候，我还是觉得有人在看着我。 <br /> &nbsp;&nbsp;&nbsp; O 从不    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 有时    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 经常  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      O 总是</div><br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果这种情况对你来说从未发生过，请点击“从不”；如果偶尔会发生，请点击“有时”；如果时不时地就会发生，请点击“经常”；如果这种情况总是伴随着您，请点击“总是”。 </div>'
+					,content: '<div style="padding: 20px 50px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Part 2共有173题，每个题目描述的都是人们在日常生活中的行为表现或者真实感受，请根据您最近一年的实际情况，判断自己在这些行为上的发生频率。<br /><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如：<div style="border:1px black solid;widtn:800px,height:200px;">1. 即使当我一个人的时候，我还是觉得有人在看着我。 <br /> &nbsp;&nbsp;&nbsp; O 从不    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 有时    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 经常  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      O 总是</div><br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果这种情况对你来说从未发生过，请点击“从不”；如果偶尔会发生，请点击“有时”；如果时不时地就会发生，请点击“经常”；如果这种情况总是伴随着您，请点击“总是”。 </div>'
 					,btn:'确定'
 					,btnAlign:'c'
 					,shade:0.5
@@ -461,7 +461,7 @@
 					type:1
 					,offset:'auto'
 					,id:'layerDemo'+1
-					,content: '<div style="padding: 20px 50px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Part 2共有130题，每个题目描述的都是人们在日常生活中的行为表现或者真实感受，请根据您最近一年的实际情况，判断自己在这些行为上的发生频率。<br /><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如：<div style="border:1px black solid;widtn:800px,height:200px;">1. 即使当我一个人的时候，我还是觉得有人在看着我。 <br /> &nbsp;&nbsp;&nbsp; O 从不    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 有时    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 经常  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      O 总是</div><br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果这种情况对你来说从未发生过，请点击“从不”；如果偶尔会发生，请点击“有时”；如果时不时地就会发生，请点击“经常”；如果这种情况总是伴随着您，请点击“总是”。 </div>'
+					,content: '<div style="padding: 20px 50px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Part 2共有173题，每个题目描述的都是人们在日常生活中的行为表现或者真实感受，请根据您最近一年的实际情况，判断自己在这些行为上的发生频率。<br /><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如：<div style="border:1px black solid;widtn:800px,height:200px;">1. 即使当我一个人的时候，我还是觉得有人在看着我。 <br /> &nbsp;&nbsp;&nbsp; O 从不    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 有时    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    O 经常  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      O 总是</div><br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果这种情况对你来说从未发生过，请点击“从不”；如果偶尔会发生，请点击“有时”；如果时不时地就会发生，请点击“经常”；如果这种情况总是伴随着您，请点击“总是”。 </div>'
 					,btn:'确定'
 					,btnAlign:'c'
 					,shade:0.5
@@ -511,13 +511,14 @@
 						        type: 1
 						        ,offset: 'auto' 
 						        ,id: 'layerDemo'+1 
-						        ,content: '<div style="padding: 20px 100px;">交卷成功,请勿重复提交。测试结束，感谢您的参与。请继续做积极心里品质测试题目。</div>'
+						        ,content: '<div style="padding: 20px 95px;">交卷成功,请勿重复提交。测试结束，感谢您的参与。请继续做积极心里品质测试题目。</div>'
 						        ,btn: '确认'
 						        ,btnAlign: 'c' 
 						        ,shade: 0.5 
 						        ,yes: function(){
 						          layer.closeAll();
-						         location.href = 'http://localhost:9999/Views/PartThree/pbIntro2.html';
+						          location.href='/Views/success.html';
+						         //location.href = 'http://localhost:9999/Views/PartThree/pbIntro2.html';
 						         //location.href = 'http://localhost:9999/Views/PartOne/login.html';
 						        }
 						      });

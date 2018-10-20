@@ -1,0 +1,168 @@
+2018-10-18 14:21:14 - [ qtp1837477283-19:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==test1登录
+2018-10-18 14:21:14 - [ qtp1837477283-19:5 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 14:21:20 - [ qtp1837477283-16:6574 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==test1提取《问题行为》题目-partone部分
+2018-10-18 14:21:20 - [ qtp1837477283-16:6575 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-18 14:44:21 - [ qtp128703311-15:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==test1登录
+2018-10-18 14:44:21 - [ qtp128703311-15:5 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 14:44:46 - [ qtp128703311-18:25487 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==test1登录
+2018-10-18 14:44:46 - [ qtp128703311-18:25487 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 14:44:52 - [ qtp128703311-15:31087 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartFourExamController.reqPartFour(PartFourExamController.java:31) ] 
+log4j info1==test1提取题目--学生卷
+2018-10-18 14:44:52 - [ qtp128703311-15:31087 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartFourExamController.reqPartFour(PartFourExamController.java:32) ] 
+log4j debug2
+2018-10-18 14:44:56 - [ qtp128703311-17:35402 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartFiveExamController.reqPartFive(PartFiveExamController.java:23) ] 
+log4j info1提取题目--家长卷
+2018-10-18 14:44:56 - [ qtp128703311-17:35402 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartFiveExamController.reqPartFive(PartFiveExamController.java:24) ] 
+log4j debug2
+2018-10-18 14:45:00 - [ qtp128703311-14:39224 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartFourExamController.reqPartFour(PartFourExamController.java:31) ] 
+log4j info1==test1提取题目--学生卷
+2018-10-18 14:45:00 - [ qtp128703311-14:39224 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartFourExamController.reqPartFour(PartFourExamController.java:32) ] 
+log4j debug2
+2018-10-18 14:45:37 - [ qtp128703311-15:75887 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==12125482登录
+2018-10-18 14:45:37 - [ qtp128703311-15:75888 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 14:45:41 - [ qtp128703311-15:80609 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12125482提取《问题行为》题目-partone部分
+2018-10-18 14:45:41 - [ qtp128703311-15:80609 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-18 14:45:47 - [ qtp128703311-16:86589 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.submitPaper(PartOneExamController.java:113) ] 
+log4j info1==12125482提交试卷《问题行为》题目-partone部分
+2018-10-18 14:45:47 - [ qtp128703311-16:86590 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.submitPaper(PartOneExamController.java:114) ] 
+log4j debug2
+2018-10-18 14:45:49 - [ qtp128703311-16:87633 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartTwoExamController.reqPartTwo(PartTwoExamController.java:31) ] 
+log4j info1==12125482提取《问题行为》题目-parttwo部分
+2018-10-18 14:45:49 - [ qtp128703311-16:87634 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartTwoExamController.reqPartTwo(PartTwoExamController.java:32) ] 
+log4j debug2
+2018-10-18 14:45:58 - [ qtp128703311-16:97521 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartTwoExamController.submitPaper(PartTwoExamController.java:62) ] 
+log4j info1==12125482提交试卷《问题行为》题目-parttwo部分
+2018-10-18 14:45:58 - [ qtp128703311-16:97522 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartTwoExamController.submitPaper(PartTwoExamController.java:63) ] 
+log4j debug2
+2018-10-18 14:46:34 - [ qtp128703311-14:132866 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==11038269登录
+2018-10-18 14:46:34 - [ qtp128703311-14:132867 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 14:47:01 - [ qtp128703311-18:160240 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==11038269登录
+2018-10-18 14:47:01 - [ qtp128703311-18:160241 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 14:47:24 - [ qtp128703311-14:183090 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==11038269提取《问题行为》题目-partone部分
+2018-10-18 14:47:24 - [ qtp128703311-14:183090 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-18 14:49:43 - [ qtp128703311-19:322070 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==test1登录
+2018-10-18 14:49:43 - [ qtp128703311-19:322071 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 14:50:06 - [ qtp128703311-18:345186 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==12038997登录
+2018-10-18 14:50:06 - [ qtp128703311-18:345186 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 14:50:49 - [ qtp128703311-18:387660 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==11038162登录
+2018-10-18 14:50:49 - [ qtp128703311-18:387660 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 14:52:28 - [ qtp128703311-15:487497 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==11038162登录
+2018-10-18 14:52:28 - [ qtp128703311-15:487497 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 14:53:45 - [ qtp128703311-15:564318 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:46) ] 
+log4j info1==11038162提取《积极心理品质》题目
+2018-10-18 14:53:45 - [ qtp128703311-15:564318 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:47) ] 
+log4j debug2
+2018-10-18 14:57:34 - [ qtp128703311-16:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==11038162登录
+2018-10-18 14:57:34 - [ qtp128703311-16:3 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 14:57:48 - [ qtp128703311-19:14349 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:46) ] 
+log4j info1==11038162提取《积极心理品质》题目
+2018-10-18 14:57:48 - [ qtp128703311-19:14349 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:47) ] 
+log4j debug2
+2018-10-18 15:03:34 - [ qtp128703311-16:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==12039399登录
+2018-10-18 15:03:34 - [ qtp128703311-16:3 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 15:03:39 - [ qtp128703311-19:5084 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:46) ] 
+log4j info1==12039399提取《积极心理品质》题目
+2018-10-18 15:03:39 - [ qtp128703311-19:5085 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:47) ] 
+log4j debug2
+2018-10-18 15:06:31 - [ qtp128703311-14:176356 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==12038492登录
+2018-10-18 15:06:31 - [ qtp128703311-14:176357 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 15:06:33 - [ qtp128703311-16:178691 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:46) ] 
+log4j info1==12038492提取《积极心理品质》题目
+2018-10-18 15:06:33 - [ qtp128703311-16:178692 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:47) ] 
+log4j debug2
+2018-10-18 15:07:43 - [ qtp128703311-19:248464 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:46) ] 
+log4j info1==12038492提取《积极心理品质》题目
+2018-10-18 15:07:43 - [ qtp128703311-19:248464 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:47) ] 
+log4j debug2
+2018-10-18 15:07:50 - [ qtp128703311-14:256087 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==12038492登录
+2018-10-18 15:07:50 - [ qtp128703311-14:256087 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 15:08:04 - [ qtp128703311-17:269858 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:46) ] 
+log4j info1==12038492提取《积极心理品质》题目
+2018-10-18 15:08:04 - [ qtp128703311-17:269858 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:47) ] 
+log4j debug2
+2018-10-18 15:30:08 - [ qtp128703311-18:1593923 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==11037629登录
+2018-10-18 15:30:08 - [ qtp128703311-18:1593923 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 15:30:11 - [ qtp128703311-19:1596345 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:46) ] 
+log4j info1==11037629提取《积极心理品质》题目
+2018-10-18 15:30:11 - [ qtp128703311-19:1596346 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:47) ] 
+log4j debug2
+2018-10-18 15:30:21 - [ qtp128703311-17:1606337 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.submitPaper(PartThreeExamController.java:84) ] 
+log4j info1==11037629提交试卷提取《积极心理品质》题目
+2018-10-18 15:30:21 - [ qtp128703311-17:1606337 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.submitPaper(PartThreeExamController.java:85) ] 
+log4j debug2
+2018-10-18 15:30:54 - [ qtp128703311-19:1639788 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==11037629登录
+2018-10-18 15:30:54 - [ qtp128703311-19:1639789 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 15:30:58 - [ qtp128703311-15:1643828 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:46) ] 
+log4j info1==11037629提取《积极心理品质》题目
+2018-10-18 15:30:58 - [ qtp128703311-15:1643829 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:47) ] 
+log4j debug2
+2018-10-18 15:41:11 - [ qtp128703311-19:2256977 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==12034888登录
+2018-10-18 15:41:11 - [ qtp128703311-19:2256977 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 15:45:25 - [ qtp128703311-14:2511120 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==12034888登录
+2018-10-18 15:45:25 - [ qtp128703311-14:2511120 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 15:56:32 - [ qtp128703311-14:3177629 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==11295154登录
+2018-10-18 15:56:32 - [ qtp128703311-14:3177629 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 15:56:47 - [ qtp128703311-14:3192783 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:46) ] 
+log4j info1==11295154提取《积极心理品质》题目
+2018-10-18 15:56:47 - [ qtp128703311-14:3192784 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:47) ] 
+log4j debug2
+2018-10-18 15:58:54 - [ qtp128703311-14:3319410 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==11295154登录
+2018-10-18 15:58:54 - [ qtp128703311-14:3319410 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 15:59:02 - [ qtp128703311-14:3327684 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==11038339登录
+2018-10-18 15:59:02 - [ qtp128703311-14:3327685 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-18 15:59:38 - [ qtp128703311-19:3363759 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:46) ] 
+log4j info1==11038339提取《积极心理品质》题目
+2018-10-18 15:59:38 - [ qtp128703311-19:3363760 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:47) ] 
+log4j debug2
+2018-10-18 16:10:25 - [ qtp128703311-16:4011116 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==test1登录
+2018-10-18 16:10:25 - [ qtp128703311-16:4011116 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2

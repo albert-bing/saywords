@@ -1,0 +1,78 @@
+2018-10-15 09:55:28 - [ qtp600515448-17:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==20060619登录
+2018-10-15 09:55:28 - [ qtp600515448-17:5 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-15 09:55:41 - [ qtp600515448-14:12948 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==20060619登录
+2018-10-15 09:55:41 - [ qtp600515448-14:12949 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-15 10:00:12 - [ qtp600515448-13:283829 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==12039516登录
+2018-10-15 10:00:12 - [ qtp600515448-13:283830 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-15 10:00:31 - [ qtp600515448-14:302858 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartFourExamController.reqPartFour(PartFourExamController.java:31) ] 
+log4j info1==12039516提取题目--学生卷
+2018-10-15 10:00:31 - [ qtp600515448-14:302859 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartFourExamController.reqPartFour(PartFourExamController.java:32) ] 
+log4j debug2
+2018-10-15 10:00:50 - [ qtp600515448-17:322354 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartFiveExamController.reqPartFive(PartFiveExamController.java:23) ] 
+log4j info1提取题目--家长卷
+2018-10-15 10:00:50 - [ qtp600515448-17:322354 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartFiveExamController.reqPartFive(PartFiveExamController.java:24) ] 
+log4j debug2
+2018-10-15 10:04:37 - [ qtp600515448-13:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartFiveExamController.reqPartFive(PartFiveExamController.java:23) ] 
+log4j info1提取题目--家长卷
+2018-10-15 10:04:37 - [ qtp600515448-13:7 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartFiveExamController.reqPartFive(PartFiveExamController.java:24) ] 
+log4j debug2
+2018-10-15 10:04:37 - [ qtp600515448-13:9 ] - [ ERROR ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:128) ] 
+/partfive/reqPartFive
+java.lang.NullPointerException
+	at nuc.bsd.psy.exam.service.PartFiveQuestionService.getPartFiveQuestions(PartFiveQuestionService.java:23)
+	at nuc.bsd.psy.exam.controller.PartFiveExamController.reqPartFive(PartFiveExamController.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:47)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:168)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:233)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+2018-10-15 10:06:08 - [ qtp911158124-15:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==12039516登录
+2018-10-15 10:06:08 - [ qtp911158124-15:3 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-15 10:06:22 - [ qtp911158124-18:14424 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartFourExamController.reqPartFour(PartFourExamController.java:31) ] 
+log4j info1==12039516提取题目--学生卷
+2018-10-15 10:06:22 - [ qtp911158124-18:14424 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartFourExamController.reqPartFour(PartFourExamController.java:32) ] 
+log4j debug2
+2018-10-15 10:06:33 - [ qtp911158124-13:25106 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartFourExamController.submitPaper(PartFourExamController.java:67) ] 
+log4j info1==12039516提交试卷--学生卷
+2018-10-15 10:06:33 - [ qtp911158124-13:25106 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartFourExamController.submitPaper(PartFourExamController.java:68) ] 
+log4j debug2

@@ -420,7 +420,7 @@
 						        type: 1
 						        ,offset: 'auto' 
 						        ,id: 'layerDemo'+1 
-						        ,content: '<div style="padding: 20px 100px;">交卷成功,请勿重复提交。Part 1测试已结束，请您继续完成Part 2测试。</div>'
+						        ,content: '<div style="padding: 20px 95px;">交卷成功,请勿重复提交。Part 1测试已结束，请您继续完成Part 2测试。</div>'
 						        ,btn: '确定'
 						        ,btnAlign: 'c' 
 						        ,shade: 0.5 
