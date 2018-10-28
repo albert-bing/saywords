@@ -78,24 +78,24 @@
 					yes: function() {
 						/*location.href = '/partone/sendPBIntro';
 						layer.closeAll();*/
-						if(pdata[0].part == '1' || pdata[0].part == '2' ){
+						/*if(pdata[0].part == '1'){
 							location.href = '/partone/sendPBIntro';
 							layer.closeAll();
 						}else if(pdata[0].part == '40'){
-							//alert(pdata[0].part)
+							alert(pdata[0].part)
 							location.href = '/partfour/sendPBIntro3';
 							layer.closeAll();
 						}else{
 							location.href = '/partthree/sendPBIntro2';
 							layer.closeAll();
-						}
-						/*if(pdata[0].part == '40'){
+						}*/
+						if(pdata[0].part == '40'){
 							location.href = '/partfour/sendPBIntro3';
 							layer.closeAll();
 						}else{
 							location.href = '/partone/sendPBIntro';
 							layer.closeAll();
-						}*/
+						}
 					}
 				});
 			}

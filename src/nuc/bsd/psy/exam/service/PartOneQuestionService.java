@@ -50,7 +50,7 @@ public class PartOneQuestionService {
 		user.setGradeId(record.getStr("gradeId"));
 		user.setSchoolId(record.getStr("schoolId"));
 		sb.delete(0, sb.length());
-		sb.append("SELECT DISTINCT aa.EC_code as paperCode, part from test_table tt,question_bank qb ,student stu , assigned_assessment_table aa where tt.question_code = qb.question_code and aa.classID = stu.classID and tt.EC_code = aa.EC_code and stu.studentNO = ? limit 0,1");
+		sb.append("SELECT DISTINCT aa.EC_code as paperCode, part from test_table tt,question_bank qb ,student stu , assigned_assessment_table aa where tt.question_code = qb.question_code and aa.classID = stu.classID and tt.EC_code = aa.EC_code and stu.studentNO = ? ORDER BY part limit 0,1");
 		record = Db.findFirst(sb.toString(),user.getStuId());
 		if(record !=null) {
 			user.setPaperCode(record.getStr("paperCode"));

@@ -101,9 +101,9 @@ $(document)
 					if(group[current_page_number][i].ans == 1) {
 						A_input.setAttribute("checked", "checked");
 					}
-					if(i == 0 ){
+					/*if(i == 0 ){
 						A_input.setAttribute("checked","checked");
-					}
+					}*/
 					//A_input.setAttribute("checked", "checked");
 					// 创建A选项内容
 					var span_A = document.createElement("div");
@@ -135,9 +135,9 @@ $(document)
 					if(group[current_page_number][i].ans == 2) {
 						B_input.setAttribute("checked", "checked");
 					}
-					if(i == 1){
+					/*if(i == 1){
 						B_input.setAttribute("checked","checked");
-					}
+					}*/
 					B_input.setAttribute("style", "margin-left: 30px");
 					option_all.appendChild(B_input);
 
@@ -170,9 +170,9 @@ $(document)
 					if(group[current_page_number][i].ans == 3) {
 						C_input.setAttribute("checked", "checked");
 					}
-					if(i == 2){
+					/*if(i == 2){
 						C_input.setAttribute("checked","checked");
-					}
+					}*/
 					C_input.setAttribute("style", "margin-left: 40px");
 					option_all.appendChild(C_input);
 
@@ -206,9 +206,9 @@ $(document)
 					if(group[current_page_number][i].ans == 4) {
 						D_input.setAttribute("checked", "checked");
 					}
-					if(i == 3){
+					/*if(i == 3){
 						D_input.setAttribute("checked","checked");
-					}
+					}*/
 					D_input.setAttribute("style", "margin-left: 30px");
 					option_all.appendChild(D_input);
 
@@ -242,9 +242,9 @@ $(document)
 					if(group[current_page_number][i].ans == 5) {
 						E_input.setAttribute("checked", "checked");
 					}
-					if(i == 4){
+					/*if(i == 4){
 						E_input.setAttribute("checked","checked");
-					}
+					}*/
 					E_input.setAttribute("style", "margin-left: 30px");
 					option_all.appendChild(E_input);
 
@@ -278,9 +278,9 @@ $(document)
 					if(group[current_page_number][i].ans == 6) {
 						F_input.setAttribute("checked", "checked");
 					}
-					if(i == 5){
+					/*if(i == 5){
 						F_input.setAttribute("checked","checked");
-					}
+					}*/
 					F_input.setAttribute("style", "margin-left: 30px");
 					option_all.appendChild(F_input);
 
@@ -506,7 +506,7 @@ function re_question_ok(re_data) {
 		title: '您有多道题目选项重复,我们需要再次确认',
 		area: ['600px', '400px'],
 		content: content,
-		btn: ['确定'],
+		btn: ['确定', '我想改变选择'],
 		btnAlign: 'c',
 		shade: 0.5,
 		yes: function() {
