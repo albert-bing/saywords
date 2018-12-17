@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<!--引入bootstrap的核心css文件-->
+		<link rel="stylesheet" href="/Views/User/bootstrap/css/bootstrap.min.css" />
+
+		<link rel="stylesheet" href="/Views/User/layui-v2.3.0/layui/css/layui.css" media="all" />
+		<!--引入JQuery-->
+		<!--<script type="text/javascript" src="/Views/User/js/jquery-1.9.1.js"></script>-->
+		<script src="https://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+		<!--引入bootstrap的js文件-->
+		<script type="text/javascript" src="/Views/User/bootstrap/js/bootstrap.min.js"></script>
+		<!--<script src="/Views/PartOne/js/jquery-1.9.1.min.js"></script>-->
+		<script type="text/javascript" src="/Views/User/layui-v2.3.0/layui/layui.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="/Views/User/my_js/homePage.js"></script>
+		<style type="text/css">
+			body {
+				background-color: #f1f1e6;
+				margin: 0;
+			}
+			
+			#top {
+				/*border: 1px red solid;*/
+				height: 60px;
+				border-bottom: 1px #00000040 solid;
+			}
+			
+			#l_logo img {
+				width: 50px;
+				margin-left: 50px;
+				margin-top: 5px;
+				float: left;
+			}
+			
+			#l_li {
+				float: right;
+				/*width: 500px;*/
+				margin-right: 60px;
+				margin-top: 18px;
+			}
+			
+			#l_li_ul {
+				list-style-type: none;
+			}
+			
+			#l_li_ul li {
+				float: left;
+				margin-left: 50px;
+				text-align: center;
+				/*width: 103px;*/
+				padding-bottom: 5px;
+			}
+			
+			#l_li_ul li a {
+				text-decoration: none;
+				color: #000000;
+			}
+			
+			#l_li_ul li:hover {
+				border-bottom: 2px deepskyblue solid;
+			}
+			
+			#l_li_ul li a:hover {
+				color: deepskyblue;
+			}
+			
+			#l_photo {
+				border: 1px red solid;
+				width: 73px;
+				height: 47px;
+				float: right;
+				margin-top: 3px;
+				margin-right: 51px;
+			}
+			
+			#l_account {
+				/*border: 1px royalblue solid;*/
+				/*width: 80px;*/
+				height: 51px;
+				float: right;
+				line-height: 50px;
+				margin-top: 3px;
+				margin-right: 51px;
+			}
+			#wonderful_moment{
+				width: 1464px;
+				height: 682px;
+			/*	border: 1px red solid;*/
+				margin: auto;
+			}
+			/*#six_photo {
+				margin-left: 33px;
+			}*/
+			
+			.p_one {
+				width: 300px;
+				height: 200px;
+				position: relative;
+			}
+			
+			.content {
+				display: none;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 520px;
+				height: 350px;
+			}
+			
+			.photo {
+				float: left;
+				width: 488px;
+				height: 341px;
+				position: relative;
+				top: 0;
+				left: 0;
+			}
+			
+			.photo:hover .content {
+				display: block;
+				width: 100%;
+				height: 341px;
+				background: #000;
+				opacity: .5;
+				-moz-opacity: .5;
+				filter: alpha(opacity=50);
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			
+			.photo:hover .content .price a {
+				color: white;
+			}
+			
+			.photo:hover .content .intro {
+				color: white;
+			}
+			button{
+				background-color: #f1f1e6;
+				border:none;
+			}
+			.content .price a {
+				text-decoration: none;
+				font-size: 40px;
+				margin-left: 200px;
+				line-height: 145px;
+			}
+			
+			.intro {
+				text-align: center;
+				font-size: 20px;
+			}
+			
+			#footer {
+				margin-top: 20px;
+				width: 100%;
+				height: 20px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="all">
+			<!--头部设计-->
+			<div id="top">
+				<div id="l_logo">
+					<img src="/Views/User/img/logo7-1.png" />
+				</div>
+				<!--获取用户名-->
+				<div id="l_account">
+					<p id="account">
+
+					</p>&nbsp;&nbsp;
+					<!--<div style="position:absolute;top:36px;">登录</div>-->
+				</div>
+				
+				<!--获取图片-->
+				<div id="l_photo">
+					假装有照片
+				</div>
+
+				<div id="l_li">
+					<ul id="l_li_ul">
+						<li>
+							<a href="#">首页</a>
+						</li>
+						<!--<li>
+							<a href="/Views/User/">我的密语</a>
+						</li>-->
+						<li>
+							<button value="2"  onclick="getHref(this)">我的主页</button>
+							<!--<a href="/Views/User/my_home.html?num=2" id="my_home" onclick="getHref(this)">我的主页</a>-->
+						</li>
+						<!--<li>
+							<button value="3" onclick="getHref(this)">我的私密好友</button>
+						</li>-->
+						<li>
+							<button value="4" onclick="getHref(this)">联系我们</button>
+							<!--<a href="#">联系我们</a>-->
+						</li>
+						<li>
+							<button value="5" onclick="getHref(this)">关于我们</button>
+							<!--<a href="#">关于我们</a>-->
+						</li>
+					</ul>
+				</div>
+
+			</div>
+			<div id="wonderful_moment">
+				<!--
+                	作者：1612537059@qq.com
+                	时间：2018-12-02
+                	描述：精彩密语
+                -->
+				<div id="six_photo">
+					<div class="photo" id="p_one" style="background: url(/Views/User/img/20181202-1-1.jpg) no-repeat scroll 0 0/100% 100%; ">
+						<div class="content">
+							<p class="price">
+								<a href="#">运动</a>
+							</p>
+							<p class="intro">生命息而运动不止，运动让我更美丽！</p>
+						</div>
+					</div>
+					<div class="photo" id="p_two" style="background: url(/Views/User/img/20181202-2-1.jpg) no-repeat scroll 0 0/100% 100%; ">
+						<div class="content">
+							<p class="price">
+								<a href="#">亲子</a>
+							</p>
+							<p class="intro"> 好孩子，就是应该爱读书。</p>
+						</div>
+					</div>
+					<div class="photo" id="p_three" style="background: url(/Views/User/img/20181202-3-1.jpg) no-repeat scroll 0 0/100% 100%; ">
+						<div class="content">
+							<p class="price">
+								<a href="#">旅游</a>
+							</p>
+							<p class="intro"> 喜欢与山川争秀，喜欢与日月争辉！</p>
+						</div>
+					</div>
+					<div class="photo" id="p_four" style="background: url(/Views/User/img/20181202-4-1.jpg) no-repeat scroll 0 0/100% 100%; ">
+						<div class="content">
+							<p class="price">
+								<a href="#">朋友</a>
+							</p>
+							<p class="intro"> 每一个与朋友在一起的快乐瞬间！</p>
+						</div>
+					</div>
+					<div class="photo" id="p_five" style="background: url(/Views/User/img/20181202-5-1.jpg) no-repeat scroll 0 0/100% 100%; ">
+						<div class="content">
+							<p class="price">
+								<a href="#">情侣</a>
+							</p>
+							<p class="intro"> 答应你的，我一定会做到，此刻世界，只有你和我。</p>
+						</div>
+					</div>
+					<div class="photo" id="p_six" style="background: url(/Views/User/img/20181202-6-1.jpg) no-repeat scroll 0 0/100% 100%; ">
+						<div class="content">
+							<p class="price">
+								<a href="#">感动</a>
+							</p>
+							<p class="intro"> 谢谢你们的每一个祝福，我会加油的！</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr style="width: 100%;margin-top:80px;color: #00000040;" />
+			<div id="main_content">
+
+			</div>
+			<div id="footer">
+				<center>
+					<p style="font-size: 12px;">&copy;albert_bing 密语科技有限公司 saywords 2018-12-3</p>
+				</center>
+			</div>
+		</div>
+	</body>
+
+</html>

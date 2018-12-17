@@ -1,0 +1,688 @@
+2018-12-09 13:34:16 - [ qtp1399616426-18:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 13:34:16 - [ qtp1399616426-18:5 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 13:34:20 - [ qtp1399616426-19:4197 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 13:34:20 - [ qtp1399616426-19:4198 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 13:34:28 - [ qtp1399616426-16:11666 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 13:34:28 - [ qtp1399616426-16:11668 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 13:39:42 - [ qtp1964467972-18:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 13:39:42 - [ qtp1964467972-18:5 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 14:27:31 - [ qtp1964467972-13:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 14:27:32 - [ qtp1964467972-13:605 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 14:31:07 - [ qtp1964467972-17:215596 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 14:31:07 - [ qtp1964467972-17:215596 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 14:37:12 - [ qtp1964467972-13:581081 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 14:37:12 - [ qtp1964467972-13:581081 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 15:05:50 - [ qtp1399616426-19:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 15:05:50 - [ qtp1399616426-19:3 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 15:06:01 - [ qtp1399616426-15:10537 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==null登录
+2018-12-09 15:06:01 - [ qtp1399616426-15:10537 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 15:08:11 - [ qtp1399616426-19:140009 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 15:08:11 - [ qtp1399616426-19:140009 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 15:08:13 - [ qtp1399616426-16:142974 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 15:08:13 - [ qtp1399616426-16:142975 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 15:09:41 - [ qtp1399616426-16:230396 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 15:09:41 - [ qtp1399616426-16:230396 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 15:32:29 - [ qtp1741792947-18:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 15:32:29 - [ qtp1741792947-18:5 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 15:37:21 - [ qtp1741792947-17:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 15:37:21 - [ qtp1741792947-17:4 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 15:37:28 - [ qtp1741792947-14:7263 ] - [ ERROR ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:128) ] 
+/userlogin/getNavPage
+java.lang.IllegalArgumentException: The parameter object can not be null.
+	at com.jfinal.render.JsonRender.<init>(JsonRender.java:116)
+	at com.jfinal.render.RenderFactory.getJsonRender(RenderFactory.java:202)
+	at com.jfinal.core.Controller.renderJson(Controller.java:1034)
+	at nuc.bsd.psy.exam.controller.UserController.getNavPage(UserController.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:47)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:168)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:233)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+2018-12-09 15:37:34 - [ qtp1741792947-19:13236 ] - [ ERROR ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:128) ] 
+/userlogin/getNavPage
+java.lang.IllegalArgumentException: The parameter object can not be null.
+	at com.jfinal.render.JsonRender.<init>(JsonRender.java:116)
+	at com.jfinal.render.RenderFactory.getJsonRender(RenderFactory.java:202)
+	at com.jfinal.core.Controller.renderJson(Controller.java:1034)
+	at nuc.bsd.psy.exam.controller.UserController.getNavPage(UserController.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:47)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:168)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:233)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+2018-12-09 15:39:01 - [ qtp1399616426-17:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 15:39:01 - [ qtp1399616426-17:5 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 15:39:07 - [ qtp1399616426-13:5602 ] - [ ERROR ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:128) ] 
+/userlogin/getNavPage
+java.lang.IllegalArgumentException: The parameter object can not be null.
+	at com.jfinal.render.JsonRender.<init>(JsonRender.java:116)
+	at com.jfinal.render.RenderFactory.getJsonRender(RenderFactory.java:202)
+	at com.jfinal.core.Controller.renderJson(Controller.java:1034)
+	at nuc.bsd.psy.exam.controller.UserController.getNavPage(UserController.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:47)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:168)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:233)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+2018-12-09 15:39:29 - [ qtp2082938164-22:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 15:39:29 - [ qtp2082938164-22:3 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 15:40:27 - [ qtp2082938164-19:58598 ] - [ ERROR ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:128) ] 
+/userlogin/getNavPage
+java.lang.IllegalArgumentException: The parameter object can not be null.
+	at com.jfinal.render.JsonRender.<init>(JsonRender.java:116)
+	at com.jfinal.render.RenderFactory.getJsonRender(RenderFactory.java:202)
+	at com.jfinal.core.Controller.renderJson(Controller.java:1034)
+	at nuc.bsd.psy.exam.controller.UserController.getNavPage(UserController.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:47)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:168)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:233)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+2018-12-09 15:41:17 - [ qtp1120022158-17:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 15:41:17 - [ qtp1120022158-17:6 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 15:41:28 - [ qtp1120022158-18:10679 ] - [ ERROR ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:128) ] 
+/userlogin/getNavPage
+java.lang.NullPointerException
+	at nuc.bsd.psy.exam.controller.UserController.getNavPage(UserController.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:47)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:168)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:233)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+2018-12-09 15:42:46 - [ qtp1399616426-17:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 15:42:46 - [ qtp1399616426-17:7 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 15:42:49 - [ qtp1399616426-18:3373 ] - [ ERROR ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:128) ] 
+/userlogin/getNavPage
+java.lang.IllegalArgumentException: The parameter object can not be null.
+	at com.jfinal.render.JsonRender.<init>(JsonRender.java:116)
+	at com.jfinal.render.RenderFactory.getJsonRender(RenderFactory.java:202)
+	at com.jfinal.core.Controller.renderJson(Controller.java:1034)
+	at nuc.bsd.psy.exam.controller.UserController.getNavPage(UserController.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:47)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:168)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:233)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+2018-12-09 15:46:11 - [ qtp1399616426-19:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 15:46:11 - [ qtp1399616426-19:3 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 15:46:18 - [ qtp1399616426-14:6578 ] - [ ERROR ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:128) ] 
+/userlogin/getNavPage
+java.lang.IllegalArgumentException: The parameter object can not be null.
+	at com.jfinal.render.JsonRender.<init>(JsonRender.java:116)
+	at com.jfinal.render.RenderFactory.getJsonRender(RenderFactory.java:202)
+	at com.jfinal.core.Controller.renderJson(Controller.java:1034)
+	at nuc.bsd.psy.exam.controller.UserController.getNavPage(UserController.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:47)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:168)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:233)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+2018-12-09 15:50:58 - [ qtp1399616426-18:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 15:50:58 - [ qtp1399616426-18:5 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 15:51:25 - [ qtp2000483370-17:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 15:51:25 - [ qtp2000483370-17:3 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 15:51:29 - [ qtp2000483370-19:3533 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 15:51:29 - [ qtp2000483370-19:3533 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 15:51:57 - [ qtp2000483370-20:32183 ] - [ ERROR ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:128) ] 
+/userlogin/getNavPage
+java.lang.IllegalArgumentException: The parameter object can not be null.
+	at com.jfinal.render.JsonRender.<init>(JsonRender.java:116)
+	at com.jfinal.render.RenderFactory.getJsonRender(RenderFactory.java:202)
+	at com.jfinal.core.Controller.renderJson(Controller.java:1034)
+	at nuc.bsd.psy.exam.controller.UserController.getNavPage(UserController.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:47)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:168)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:233)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+2018-12-09 15:52:51 - [ qtp1518243551-18:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 15:52:51 - [ qtp1518243551-18:3 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 15:53:38 - [ qtp1518243551-18:47282 ] - [ ERROR ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:128) ] 
+/userlogin/getNavPage
+java.lang.IllegalArgumentException: The parameter object can not be null.
+	at com.jfinal.render.JsonRender.<init>(JsonRender.java:116)
+	at com.jfinal.render.RenderFactory.getJsonRender(RenderFactory.java:202)
+	at com.jfinal.core.Controller.renderJson(Controller.java:1034)
+	at nuc.bsd.psy.exam.controller.UserController.getNavPage(UserController.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:47)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:168)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:233)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+2018-12-09 15:54:10 - [ qtp1964467972-18:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 15:54:10 - [ qtp1964467972-18:3 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 15:54:13 - [ qtp1964467972-17:3128 ] - [ ERROR ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:128) ] 
+/userlogin/getNavPage
+java.lang.IllegalArgumentException: The parameter object can not be null.
+	at com.jfinal.render.JsonRender.<init>(JsonRender.java:116)
+	at com.jfinal.render.RenderFactory.getJsonRender(RenderFactory.java:202)
+	at com.jfinal.core.Controller.renderJson(Controller.java:1034)
+	at nuc.bsd.psy.exam.controller.UserController.getNavPage(UserController.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:47)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:168)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:233)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+2018-12-09 15:54:37 - [ qtp2000483370-17:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 15:54:37 - [ qtp2000483370-17:4 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 15:54:41 - [ qtp2000483370-19:4445 ] - [ ERROR ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:128) ] 
+/userlogin/getNavPage
+java.lang.IllegalArgumentException: The parameter object can not be null.
+	at com.jfinal.render.JsonRender.<init>(JsonRender.java:116)
+	at com.jfinal.render.RenderFactory.getJsonRender(RenderFactory.java:202)
+	at com.jfinal.core.Controller.renderJson(Controller.java:1034)
+	at nuc.bsd.psy.exam.controller.UserController.getNavPage(UserController.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:47)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:168)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:233)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+2018-12-09 15:56:12 - [ qtp2000483370-17:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 15:56:12 - [ qtp2000483370-17:4 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 16:11:19 - [ qtp2000483370-21:907412 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==111登录
+2018-12-09 16:11:19 - [ qtp2000483370-21:907413 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 16:15:09 - [ qtp1964467972-18:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 16:15:09 - [ qtp1964467972-18:3 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 16:23:48 - [ qtp1964467972-19:1 ] - [ ERROR ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:128) ] 
+/userlogin/getNavPage
+java.lang.NullPointerException
+	at nuc.bsd.psy.exam.service.UserService.getMyHome(UserService.java:42)
+	at nuc.bsd.psy.exam.controller.UserController.getNavPage(UserController.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:47)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:168)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:233)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+2018-12-09 16:24:41 - [ qtp1964467972-17:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 16:24:41 - [ qtp1964467972-17:3 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 16:25:13 - [ qtp1964467972-25:31793 ] - [ ERROR ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:128) ] 
+/userlogin/getNum
+java.lang.NullPointerException
+	at nuc.bsd.psy.exam.controller.UserController.getNum(UserController.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:47)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:168)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:233)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+2018-12-09 22:01:10 - [ qtp1964886191-13:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 22:01:10 - [ qtp1964886191-13:22 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2
+2018-12-09 22:42:42 - [ qtp1964886191-15:2492013 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:33) ] 
+log4j info1==123456登录
+2018-12-09 22:42:42 - [ qtp1964886191-15:2492014 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:34) ] 
+log4j debug2

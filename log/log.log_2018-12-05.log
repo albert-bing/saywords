@@ -1,0 +1,214 @@
+2018-10-28 14:57:06 - [ qtp600515448-14:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==12039186登录
+2018-10-28 14:57:06 - [ qtp600515448-14:7 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-28 14:57:13 - [ qtp600515448-16:6154 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 14:57:13 - [ qtp600515448-16:6155 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 15:08:49 - [ qtp600515448-19:702987 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==12039186登录
+2018-10-28 15:08:49 - [ qtp600515448-19:702988 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-28 15:08:57 - [ qtp600515448-14:710373 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 15:08:57 - [ qtp600515448-14:710373 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 15:12:35 - [ qtp600515448-15:928214 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 15:12:35 - [ qtp600515448-15:928214 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 15:18:28 - [ qtp600515448-22:1281860 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 15:18:28 - [ qtp600515448-22:1281860 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 15:20:54 - [ qtp600515448-15:1427471 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 15:20:54 - [ qtp600515448-15:1427471 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 15:21:03 - [ qtp600515448-19:1436100 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 15:21:03 - [ qtp600515448-19:1436100 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 15:21:03 - [ qtp600515448-22:1436323 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 15:21:03 - [ qtp600515448-22:1436324 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 15:21:03 - [ qtp600515448-15:1436506 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 15:21:03 - [ qtp600515448-15:1436507 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 15:21:03 - [ qtp600515448-16:1436678 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 15:21:03 - [ qtp600515448-16:1436678 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 15:21:03 - [ qtp600515448-16:1436867 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 15:21:03 - [ qtp600515448-16:1436868 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 15:21:24 - [ qtp600515448-17:1457809 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 15:21:24 - [ qtp600515448-17:1457810 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 15:22:28 - [ qtp600515448-16:1521882 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 15:22:28 - [ qtp600515448-16:1521883 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 15:22:29 - [ qtp600515448-15:1522572 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 15:22:29 - [ qtp600515448-15:1522573 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 15:23:56 - [ qtp600515448-16:1609567 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 15:23:56 - [ qtp600515448-16:1609567 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 15:23:57 - [ qtp600515448-22:1610461 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 15:23:57 - [ qtp600515448-22:1610461 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 15:25:15 - [ qtp600515448-17:1688457 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 15:25:15 - [ qtp600515448-17:1688457 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 15:26:54 - [ qtp600515448-16:1787522 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 15:26:54 - [ qtp600515448-16:1787522 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 15:26:55 - [ qtp600515448-17:1788232 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 15:26:55 - [ qtp600515448-17:1788232 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 15:27:47 - [ qtp600515448-17:1840572 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 15:27:47 - [ qtp600515448-17:1840573 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 15:28:12 - [ qtp600515448-22:1865799 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.submitPaper(PartOneExamController.java:113) ] 
+log4j info1==12039186提交试卷《问题行为》题目-partone部分
+2018-10-28 15:28:12 - [ qtp600515448-22:1865799 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.submitPaper(PartOneExamController.java:114) ] 
+log4j debug2
+2018-10-28 15:35:44 - [ qtp600515448-16:2317309 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 15:35:44 - [ qtp600515448-16:2317310 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 18:12:14 - [ qtp600515448-19:11707405 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==G36220420040805742X登录
+2018-10-28 18:12:14 - [ qtp600515448-19:11707405 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-28 18:12:16 - [ qtp600515448-16:11709696 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:46) ] 
+log4j info1==G36220420040805742X提取《积极心理品质》题目
+2018-10-28 18:12:16 - [ qtp600515448-16:11709697 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:47) ] 
+log4j debug2
+2018-10-28 18:13:34 - [ qtp600515448-16:11787127 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:46) ] 
+log4j info1==G36220420040805742X提取《积极心理品质》题目
+2018-10-28 18:13:34 - [ qtp600515448-16:11787127 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:47) ] 
+log4j debug2
+2018-10-28 18:13:34 - [ qtp600515448-19:11787873 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:46) ] 
+log4j info1==G36220420040805742X提取《积极心理品质》题目
+2018-10-28 18:13:34 - [ qtp600515448-19:11787874 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartThreeExamController.reqPartThree(PartThreeExamController.java:47) ] 
+log4j debug2
+2018-10-28 18:19:57 - [ qtp600515448-16:12170360 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==12072451登录
+2018-10-28 18:19:57 - [ qtp600515448-16:12170360 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-28 18:41:43 - [ qtp600515448-19:13476179 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==12039186登录
+2018-10-28 18:41:43 - [ qtp600515448-19:13476180 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-28 18:41:44 - [ qtp600515448-22:13477913 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 18:41:44 - [ qtp600515448-22:13477914 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 18:42:04 - [ qtp600515448-19:13497964 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.submitPaper(PartOneExamController.java:113) ] 
+log4j info1==12039186提交试卷《问题行为》题目-partone部分
+2018-10-28 18:42:04 - [ qtp600515448-19:13497964 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.submitPaper(PartOneExamController.java:114) ] 
+log4j debug2
+2018-10-28 18:42:06 - [ qtp600515448-17:13499088 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartTwoExamController.reqPartTwo(PartTwoExamController.java:31) ] 
+log4j info1==12039186提取《问题行为》题目-parttwo部分
+2018-10-28 18:42:06 - [ qtp600515448-17:13499089 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartTwoExamController.reqPartTwo(PartTwoExamController.java:32) ] 
+log4j debug2
+2018-10-28 18:43:17 - [ qtp600515448-14:13570935 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==12039186登录
+2018-10-28 18:43:17 - [ qtp600515448-14:13570936 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-28 18:43:20 - [ qtp600515448-14:13573145 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 18:43:20 - [ qtp600515448-14:13573145 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 18:43:49 - [ qtp600515448-22:13602034 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.submitPaper(PartOneExamController.java:113) ] 
+log4j info1==12039186提交试卷《问题行为》题目-partone部分
+2018-10-28 18:43:49 - [ qtp600515448-22:13602034 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.submitPaper(PartOneExamController.java:114) ] 
+log4j debug2
+2018-10-28 18:43:51 - [ qtp600515448-22:13604163 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartTwoExamController.reqPartTwo(PartTwoExamController.java:31) ] 
+log4j info1==12039186提取《问题行为》题目-parttwo部分
+2018-10-28 18:43:51 - [ qtp600515448-22:13604163 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartTwoExamController.reqPartTwo(PartTwoExamController.java:32) ] 
+log4j debug2
+2018-10-28 18:43:54 - [ qtp600515448-17:13607047 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 18:43:54 - [ qtp600515448-17:13607048 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 18:48:29 - [ qtp600515448-15:13882711 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 18:48:29 - [ qtp600515448-15:13882712 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 18:48:29 - [ qtp600515448-19:13882988 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12039186提取《问题行为》题目-partone部分
+2018-10-28 18:48:29 - [ qtp600515448-19:13882989 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 18:48:57 - [ qtp600515448-17:13910884 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.submitPaper(PartOneExamController.java:113) ] 
+log4j info1==12039186提交试卷《问题行为》题目-partone部分
+2018-10-28 18:48:57 - [ qtp600515448-17:13910884 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.submitPaper(PartOneExamController.java:114) ] 
+log4j debug2
+2018-10-28 18:48:58 - [ qtp600515448-14:13911702 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartTwoExamController.reqPartTwo(PartTwoExamController.java:31) ] 
+log4j info1==12039186提取《问题行为》题目-parttwo部分
+2018-10-28 18:48:58 - [ qtp600515448-14:13911702 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartTwoExamController.reqPartTwo(PartTwoExamController.java:32) ] 
+log4j debug2
+2018-10-28 22:24:53 - [ qtp600515448-16:26866856 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==12034888登录
+2018-10-28 22:24:53 - [ qtp600515448-16:26866856 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-28 22:24:55 - [ qtp600515448-16:26868989 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12034888提取《问题行为》题目-partone部分
+2018-10-28 22:24:55 - [ qtp600515448-16:26868989 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 22:29:24 - [ qtp600515448-17:27137179 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==12034888登录
+2018-10-28 22:29:24 - [ qtp600515448-17:27137179 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-28 22:35:49 - [ qtp600515448-17:27522673 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:41) ] 
+log4j info1==12034888登录
+2018-10-28 22:35:49 - [ qtp600515448-17:27522674 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.logon(PartOneExamController.java:42) ] 
+log4j debug2
+2018-10-28 22:41:32 - [ qtp600515448-19:27865974 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:82) ] 
+log4j info1==12034888提取《问题行为》题目-partone部分
+2018-10-28 22:41:32 - [ qtp600515448-19:27865974 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.reqPartOne(PartOneExamController.java:83) ] 
+log4j debug2
+2018-10-28 22:41:52 - [ qtp600515448-15:27885944 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.submitPaper(PartOneExamController.java:113) ] 
+log4j info1==12034888提交试卷《问题行为》题目-partone部分
+2018-10-28 22:41:52 - [ qtp600515448-15:27885945 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartOneExamController.submitPaper(PartOneExamController.java:114) ] 
+log4j debug2
+2018-10-28 22:41:53 - [ qtp600515448-22:27886924 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.PartTwoExamController.reqPartTwo(PartTwoExamController.java:31) ] 
+log4j info1==12034888提取《问题行为》题目-parttwo部分
+2018-10-28 22:41:53 - [ qtp600515448-22:27886924 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.PartTwoExamController.reqPartTwo(PartTwoExamController.java:32) ] 
+log4j debug2
+2018-12-05 22:34:01 - [ qtp128703311-18:0 ] - [ WARN ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:62) ] 
+404 Action Not Found: /partone
+2018-12-05 22:34:02 - [ qtp128703311-19:907 ] - [ WARN ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:62) ] 
+404 Action Not Found: /partone
+2018-12-05 22:34:02 - [ qtp128703311-17:1075 ] - [ WARN ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:62) ] 
+404 Action Not Found: /partone
+2018-12-05 22:34:03 - [ qtp128703311-14:1234 ] - [ WARN ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:62) ] 
+404 Action Not Found: /partone
+2018-12-05 22:34:03 - [ qtp128703311-18:1390 ] - [ WARN ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:62) ] 
+404 Action Not Found: /partone
+2018-12-05 22:34:03 - [ qtp128703311-15:1551 ] - [ WARN ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:62) ] 
+404 Action Not Found: /partone
+2018-12-05 22:34:03 - [ qtp128703311-16:1711 ] - [ WARN ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:62) ] 
+404 Action Not Found: /partone
+2018-12-05 22:34:03 - [ qtp128703311-17:1892 ] - [ WARN ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:62) ] 
+404 Action Not Found: /partone
+2018-12-05 22:34:03 - [ qtp128703311-14:2061 ] - [ WARN ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:62) ] 
+404 Action Not Found: /partone
+2018-12-05 22:34:04 - [ qtp128703311-19:2216 ] - [ WARN ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:62) ] 
+404 Action Not Found: /partone
+2018-12-05 22:34:04 - [ qtp128703311-15:2399 ] - [ WARN ] - [ com.jfinal.core.ActionHandler.handle(ActionHandler.java:62) ] 
+404 Action Not Found: /partone

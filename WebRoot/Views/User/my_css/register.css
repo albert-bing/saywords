@@ -1,0 +1,122 @@
+body {
+				margin: 0;
+			}
+			/*外面的最大的框*/
+			
+			#all_register {
+				margin: 0 auto;
+				width: 100%;
+				height: 790px;
+				/*border: 1px red solid;*/
+			}
+			/*导航栏--黑色部分*/
+			
+			#nav_top {
+				position: fixed;
+				width: 100%;
+				height: 60px;
+				background-color: #393d49;
+				z-index: 10000;
+			}
+			/*导航栏的背景框*/
+			
+			#top_background {
+				width: 100%;
+				height: 60px;
+			}
+			/*中间框的第一个---范围最到的那个*/
+			
+			#center_first {
+				/*margin-top: 15px;*/
+				background-color: #d0d0d06e;
+				border-bottom: 1px #d0d0d0ba solid;
+			}
+			/*中间框--范围较小的那个*/
+			
+			#center_second {
+				margin: 0 auto;
+				padding-top: 8px;
+				width: 1170px;
+				height: 600px;
+			}
+			/*中间框范围最小的那个*/
+			
+			#center_third {
+				margin: 10px auto;
+				width: 1100px;
+				height: 550px;
+				/*border: 1px red solid;*/
+				background-color: #fff;
+			}
+			/*底部导航栏的设置*/
+			
+			#footer {
+				/*margin-top: 30px;*/
+				width: 100%;
+				height: 120px;
+				background-color: #d0d0d06e;
+			}
+			/*登录和注册那块*/
+			
+			ul {
+				height: 40px;
+			}
+			
+			.li_login {
+				font-size: 18px;
+				margin-left: 20px;
+			}
+			
+			.li_login:hover {
+				color: #009688;
+				border-bottom: 2px #009688 solid;
+			}
+			/*表单外面的那个div*/
+			
+			#pre_f {
+				width: 400px;
+				height: 500px;
+				/*border: dashed 1px red;*/
+			}
+			
+			.layui-form-item {
+				margin-top: 20px;
+			}
+			
+			.layui-form-label {
+				text-align: center;
+				background-color: #FBFBFB;
+				border-width: 1px;
+				border-style: solid;
+				border-radius: 2px 0 0 2px;
+				border-color: #FFF;
+			}
+			/*复选框的调整*/
+			
+			#L_btn {
+				margin-left: 110px;
+				width: 190px;
+				color: white;
+				text-align: center;
+				background-color: #009688;
+				border-radius: 3px;
+			}
+			
+			#L_check {
+				width: 16px;
+				height: 20px;
+				margin-top: 5px;
+			}
+			/*.layui-form-checkbox i{
+				width: 17px;
+				height: 17px;
+				font-size: 15px;
+				border:1px #3c3030bd solid;
+			}
+			.layui-form-checkbox{
+				line-height: 20px;
+				
+			}
+			.layui-form-checked i, .layui-form-checked:hover i{
+				color: #1a8a3a;
+			}*/

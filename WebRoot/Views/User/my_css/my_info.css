@@ -1,0 +1,65 @@
+/*个人信息的显示div设置*/
+			#myInfo{
+				/*border: 1px red solid;*/
+				height: 430px;
+			}
+			/*包裹form表单的div*/
+			#next_info{
+				position: relative;
+				/*border: 1px blue solid;*/
+				width: 40%;
+				margin: 0 auto;
+				height: 405px;
+				box-shadow: 0px 3px 3px 0px #0000001a ;
+			}
+			/*个人信息div的设置*/
+			.next_info_p{
+				line-height: 45px;
+				text-align: center;
+				font-size: 20px;
+				background-color: rgba(0,0,0,.5);
+				color: white;
+			}
+			/*form表单的每一行的设计*/
+			.per_div{
+				position: relative;
+				top: 20px;
+				left: 27px;
+				height: 25px;
+				/*border: 1px yellow solid;*/
+				margin-top: 10px;
+				width: 100%;
+			}
+			/*label设置*/
+			.p_label{
+				display: block;
+				float: left;
+				width: 85px;
+				background-color: rgba(0,0,0,.5);
+				color: white;
+			}
+			/*input设置*/
+			.p_input{
+				float: left;
+			}
+			/*按钮的设置*/
+			.btn{
+				position: relative;
+				top: 40px;
+				left: 45px;
+				background-color: rgba(0,0,0,.8);
+				color: white;
+				border: none;
+				width: 70px;
+				height: 30px;
+			}
+			/*按钮的触摸设置*/
+			.btn:hover{
+				cursor: pointer;
+				background-color: rgba(0,0,0,.6);
+				border-radius: 3px;
+			}
+			#res_btn{
+				position: relative;
+				left: 135px;
+			}

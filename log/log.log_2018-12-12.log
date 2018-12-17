@@ -1,0 +1,12 @@
+2018-12-12 22:27:31 - [ qtp1399616426-17:0 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:35) ] 
+log4j info1==111登录
+2018-12-12 22:27:31 - [ qtp1399616426-17:5 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:36) ] 
+log4j debug2
+2018-12-12 22:27:39 - [ qtp1399616426-18:8442 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:35) ] 
+log4j info1==111登录
+2018-12-12 22:27:39 - [ qtp1399616426-18:8442 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:36) ] 
+log4j debug2
+2018-12-12 22:27:43 - [ qtp1399616426-19:12049 ] - [ INFO ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:35) ] 
+log4j info1==111登录
+2018-12-12 22:27:43 - [ qtp1399616426-19:12051 ] - [ DEBUG ] - [ nuc.bsd.psy.exam.controller.UserController.logon(UserController.java:36) ] 
+log4j debug2
